@@ -1,0 +1,64 @@
+.fs3 {
+	font-size: 18px;
+}
+
+.bang-gia .chi-tiet-gia {
+	color: #d00;
+	font-weight: 600;
+	text-align: right;
+	font-size: 16px;
+}
+
+section {
+	z-index: 1;
+}
+
+.large-section {
+	padding: 40px 0;
+}
+
+.box-office-365 {
+	background-color: #fff;
+	border: 5px solid #FF6513;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 15%;
+}
+
+.box-office-365 h6 {
+	color: #FF6513;
+	font-size: 24px;
+}
+
+.box-office-365 h1 {
+	font-size: 76px;
+	color: #FF6513;
+}
+
+.box-office-365:hover {
+	background-color: #FF6513;
+}
+
+.box-office-365:hover h6 {
+	color: #fff;
+}
+
+.box-office-365:hover h1 {
+	color: #fff;
+}
+
+@media (max-width: 736px) {
+	.box-office-365 {
+		padding: 5%;
+	}
+
+	.box-office-365 h1 {
+		font-size: 60px;
+	}
+
+	.box-office-365 h6 {
+		font-size: 20px;
+	}
+}
