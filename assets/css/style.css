@@ -49,6 +49,63 @@ section {
 	color: #fff;
 }
 
+/*.roi1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/
+
+.gallery4 {
+    flex: 35%;
+    /*margin: 2% 6%;*/
+    border-radius: 5px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #D8D8D8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery4, .first-link {
+    -webkit-transition: 1.8s;
+    -moz-transition: 1.8s;
+    transition: 1.8s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.ndcon {
+    background: #f3b15a;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.gallery4 .first-link {
+    color: white;
+    text-decoration: none;
+    margin-top: 0em;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.formatted-content img, .read-panel img, .read-view img, .a-detail-content img, .pd-content img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.gallery4:hover .first-link {
+    margin-top: -100%;
+}
+
+img.lazyloaded {
+	width: 96%;
+}
+
 @media (max-width: 736px) {
 	.box-office-365 {
 		padding: 5%;
@@ -60,5 +117,8 @@ section {
 
 	.box-office-365 h6 {
 		font-size: 20px;
+	}
+	.gallery4 {
+	    height: 320px;
 	}
 }
