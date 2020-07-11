@@ -1,0 +1,23 @@
+body {
+	background-color: #E96060;
+}
+
+.header {
+	border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+
+img.logo-main {
+	width: 20%;
+	margin-top: 20px;
+}
+
+img.img-pp {
+	margin: 10px 0px;
+	width: 100%;
+}
+
+.footer {
+	background-color: #161616;
+	padding: 15px;
+}
