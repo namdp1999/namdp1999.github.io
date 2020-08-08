@@ -11597,9 +11597,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 .pricing-table-type-1 .pricing-table-wrapper .pricing-table .pricing-header .price {
   position: relative;
-  margin-left: 15px;
+  /*margin-left: 15px;*/
   line-height: 1;
-  font-size: 56px;
+  font-size: 34px;
   font-weight: 500
 }
 
