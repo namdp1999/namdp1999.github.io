@@ -23,3 +23,7 @@ document.write('<script src="js/footer-widgets.js"></script>');
 document.write('<script src="js/footer-widgets-middle.js"></script>');
 document.write('<script src="js/colophon.js"></script>');
 document.write('<script src="js/script.js"></script>');
+
+function test() {
+  
+}
