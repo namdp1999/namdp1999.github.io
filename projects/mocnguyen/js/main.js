@@ -1,3 +1,5 @@
+var test = ``;
+
 document.write('<script src="js/jquery-1.12.4.min.js"></script>');
 document.write('<script src="js/bootstrap.min.js"></script>');
 document.write('<script src="js/jquery.fancybox.pack.js"></script>');
@@ -23,7 +25,3 @@ document.write('<script src="js/footer-widgets.js"></script>');
 document.write('<script src="js/footer-widgets-middle.js"></script>');
 document.write('<script src="js/colophon.js"></script>');
 document.write('<script src="js/script.js"></script>');
-
-function test() {
-  
-}
