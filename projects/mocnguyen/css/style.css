@@ -13249,6 +13249,14 @@
 	width: 55px;
 }
 
+#overlayer {
+display: none;
+}
+
+.loader {
+display: none;
+}
+
 @media (max-width: 1024px) {
 	.site-header {
 		background: white;
