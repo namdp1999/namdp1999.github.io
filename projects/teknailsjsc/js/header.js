@@ -1,6 +1,6 @@
 var header = `
 <div class="sticky-header main-bar-wraper header-curve ">
-  <div class="main-bar clearfix bg-primary">
+  <div class="main-bar clearfix bg-primary-2">
     <div class="container clearfix">
       <div class="logo-header mostion">
         <a href="index.html"><img src="https://namdp1999.github.io/projects/teknailsjsc/images/logo.png" alt=""></a>

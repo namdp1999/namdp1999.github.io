@@ -10162,3 +10162,11 @@ ol.commentlist li .star-rating {
 .header-nav .nav {
   display: block;
 }
+
+.text-primary-2 {
+  color: #9633BB;
+}
+
+.bg-primary-2 {
+  background-color: #B33BD7;
+}
