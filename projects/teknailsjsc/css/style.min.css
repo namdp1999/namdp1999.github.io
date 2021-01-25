@@ -10171,10 +10171,10 @@ ol.commentlist li .star-rating {
   background-color: #B33BD7;
 }
 
-.spa-service .owl-spa-btn .owl-controls .owl-nav .owl-next {
+#beauty-care .owl-spa-btn .owl-controls .owl-nav .owl-next {
   position: relative;
 }
 
-.spa-service .owl-spa-btn .owl-controls .owl-nav .owl-prev {
+#beauty-care .owl-spa-btn .owl-controls .owl-nav .owl-prev {
   position: relative;
 }
