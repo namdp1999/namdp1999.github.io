@@ -1421,14 +1421,15 @@ footer.spa-footer .widget_archive ul li a, footer.spa-footer .widget_categories 
 }
 
 .spa-meet-expert .team-title .icon-content .dez-tilte {
-  font-size: 30px;
-  font-weight: 700
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 .spa-meet-expert .team-title .icon-content p {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: Nunito
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial;
 }
 
 .spa-meet-expert .team-title .icon-bx-wraper {
