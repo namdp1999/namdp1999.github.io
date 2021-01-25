@@ -1,9 +1,8 @@
-
 var dzrevapi;
 var dzQuery =jQuery;
 
 function dz_rev_slider_1(){
-	
+
 	if(dzQuery("#rev_slider_1175_1").revolution == undefined){
 		revslider_showDoubleJqueryError("#rev_slider_1175_1");
 	}else{
