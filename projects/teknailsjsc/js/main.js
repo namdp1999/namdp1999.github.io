@@ -1,0 +1,13 @@
+var test = ``;
+
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/header.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/combining.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/plugins/revolution/v5.4.3/js/jquery.themepunch.tools.min.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/plugins/revolution/v5.4.3/js/jquery.themepunch.revolution.min.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/rev.slider.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/footer.js"></script>');
+
+jQuery(document).ready(function() {
+  dz_rev_slider_1();
+
+});

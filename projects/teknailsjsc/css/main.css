@@ -1,0 +1,13 @@
+@import url('plugins.min.css');
+@import url('../plugins/fontawesome/css/font-awesome.min.css');
+@import url('../plugins/themify/themify-icons.css');
+@import url('../plugins/flaticon/flaticon.css');
+@import url('style.min.css');
+@import url('skin/skin-1.css');
+@import url('templete.min.css');
+@import url('../plugins/revolution/v5.4.3/css/revolution.min.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900|Raleway:100,200,300,400,500,600,700,800,900|Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900');
+
+.test {
+
+}
