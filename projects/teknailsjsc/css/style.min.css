@@ -10170,3 +10170,11 @@ ol.commentlist li .star-rating {
 .bg-primary-2 {
   background-color: #B33BD7;
 }
+
+.spa-service .owl-spa-btn .owl-controls .owl-nav .owl-next {
+  position: relative;
+}
+
+.spa-service .owl-spa-btn .owl-controls .owl-nav .owl-prev {
+  position: relative;
+}
