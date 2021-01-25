@@ -3,7 +3,7 @@ var header = `
   <div class="main-bar clearfix bg-primary">
     <div class="container clearfix">
       <div class="logo-header mostion">
-        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <a href="index.html"><img src="https://namdp1999.github.io/projects/teknailsjsc/images/logo.png" alt=""></a>
       </div>
       <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed" aria-expanded="false">
         <i class="flaticon-menu"></i>

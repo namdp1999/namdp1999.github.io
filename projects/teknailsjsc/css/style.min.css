@@ -10150,3 +10150,15 @@ ol.commentlist li .star-rating {
 .namgd:hover {
   color: #fff;
 }
+
+.loader {
+  display: none;
+}
+
+.overlayer {
+  display: none;
+}
+
+.header-nav .nav {
+  display: block;
+}
