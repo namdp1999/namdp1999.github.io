@@ -2,7 +2,7 @@ var header_desk = `
 <div class="container position-relative">
   <div class="row align-items-center">
     <div class="col-6 col-lg-2">
-      <div class="header-logo"><a href="index.html"><img src="assets/img/logo.png" title="Muối Hồng Hima's" alt="Muối Hồng Hima's"></a></div>
+      <div class="header-logo"><a href="index.html"><img src="https://namgd.com/projects/muoihonghimas/assets/img/logo.png" title="Muối Hồng Hima's" alt="Muối Hồng Hima's"></a></div>
     </div>
     <div class="col-lg-5 position-static d-lg-block d-none">
       <div class="main-menu menu-style2">
@@ -34,7 +34,7 @@ var header_desk = `
       </div>
     </div>
     <div class="col-6 d-block d-lg-none text-right">
-      <button type="button" class="vs-menu-toggle text-theme border-theme"><i class="far fa-bars"></i></button>
+      <button type="button" class="vs-menu-toggle text-theme border-theme"><i class="fa fa-bars"></i></button>
     </div>
   </div>
 </div>

@@ -10430,3 +10430,7 @@ table.checkout-ordertable tfoot tr:last-child td {
 .vs-product-layout2 .product-header {
     background: #f5f5f5;
 }
+
+.loader {
+  display: none;
+}

@@ -7,11 +7,11 @@ var footer = `
           <div class="vs-widget-about">
             <div class="widget-about-logo mb-20 mb-lg-25">
               <a href="index.html">
-                <img src="assets/img/logo.png" alt="Hima's">
+                <img src="https://namgd.com/projects/muoihonghimas/assets/img/logo.png" alt="Hima's">
               </a>
             </div>
             <p class="widget-about-text mb-20">Công ty Muối Hồng Hima's được thành lập từ ngày 01 tháng 01 năm 2010. Qua nhiều năm hình thành và phát triển, Công ty Muối Hồng Hima's tự hào là doanh nghiệp đi đầu trong lĩnh vực kinh doanh các sản phẩm từ đá muối. Nhờ áp dụng kỹ thuật tiên tiến trong thi công, mức giá sản phẩm cạnh tranh và chất lượng đảm bảo, tốc độ tăng trưởng thị phần và doanh thu luôn ở mức cao.</p>
-              <a href="#" class="vs-btn wave-style1">Giới thiệu<i class="far fa-arrow-right"></i></a>
+              <a href="#" class="vs-btn wave-style1">Giới thiệu<i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

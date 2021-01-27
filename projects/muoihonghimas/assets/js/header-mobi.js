@@ -2,7 +2,7 @@ var header_mobi = `
 <div class="container position-relative">
   <div class="row align-items-center">
     <div class="col-5 col-md-3">
-      <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="Muối Hồng Hima's"></a></div>
+      <div class="logo"><a href="index.html"><img src="https://namgd.com/projects/muoihonghimas/assets/img/logo.png" alt="Muối Hồng Hima's"></a></div>
     </div>
     <div class="col-7 col-md-9 text-right position-static">
       <div class="main-menu menu-sticky1 d-none d-lg-block link-inherit mobile-menu-active">
@@ -26,7 +26,7 @@ var header_mobi = `
           <li><a href="#">Liên hệ</a></li>
         </ul>
       </div>
-      <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+      <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i class="fa fa-bars"></i></button>
     </div>
   </div>
 </div>
