@@ -16,7 +16,7 @@ var cong_tac_vien = `
           </div>
           <div class="row">
             <div class="col-md-12 m-b30">
-              <ol class="list-num-count">
+              <ol class="list-num-count text-white">
                 <li>Nhận ngay Hệ Thống Marketing Online Thông Minh và 03 Công Cụ Marketing Cao Cấp - Trị giá hơn 50 triệu đồng.</li>
                 <li>Được tham gia Câu Lạc Bộ Kinh Doanh Online</li>
                 <li>Kết Nối Tình Thân Với Hàng Trăm Con Người Thực Chiến</li>

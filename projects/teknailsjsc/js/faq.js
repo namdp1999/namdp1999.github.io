@@ -2,7 +2,7 @@ var faq = `
 <div class="container">
   <div class="section-head text-center">
     <h2 class="text-primary-2 spa-title-head ">Câu hỏi thường gặp</h2>
-    <div class="circle-sap bg-primary"></div>
+    <div class="circle-sap bg-primary-2"></div>
   </div>
   <div class="row">
     <div class="col-md-6">

@@ -14,7 +14,7 @@ var huong_dan_bao_quan = `
           </div>
           <div class="row">
             <div class="col-md-12 m-b30">
-              <ol class="list-num-count">
+              <ol class="list-num-count text-white">
                 <li>Lau sạch lưỡi kềm bằng Acetol sau khi sử dụng</li>
                 <li>Nhúng lưỡi kềm vào dầu chống sét</li>
                 <li>Nhỏ dầu vào cốt kềm để bôi trơn</li>
