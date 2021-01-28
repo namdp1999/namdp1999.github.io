@@ -10475,3 +10475,7 @@ ol.commentlist li .star-rating {
   background-color: #2b5428;
 }
 /* end w29 */
+
+.circle-sap.bg-primary:before, .circle-sap.bg-primary:after {
+  background-color: #B33BD7;
+}
