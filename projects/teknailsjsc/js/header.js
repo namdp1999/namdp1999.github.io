@@ -10,20 +10,20 @@ var header = `
       </button>
       <div class="header-nav navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="index.html">Trang chủ</a></li>
-          <li><a href="https://teknailsjsc.com/pages/gioi-thieu.htm">Giới thiệu</a></li>
+          <li><a href="index.html?a=[memberphone]">Trang chủ</a></li>
+          <li><a href="./pages/gioi-thieu.htm?a=[memberphone]">Giới thiệu</a></li>
           <li class="active"> <a href="javascript:;">Sản phẩm<i class="fa fa-chevron-down"></i></a>
             <ul class="sub-menu">
-              <li> <a href="https://teknailsjsc.com/nhom-san-pham/kem-cat-da.htm">Kềm Cắt Da</a></li>
-              <li> <a href="https://teknailsjsc.com/nhom-san-pham/kem-cat-mong.htm">Kềm Cắt Móng</a></li>
-              <li> <a href="https://teknailsjsc.com/nhom-san-pham/sui-da.htm">Sủi Da</a></li>
-              <li> <a href="https://teknailsjsc.com/nhom-san-pham/giua.htm">Giũa</a></li>
-              <li> <a href="https://teknailsjsc.com/nhom-san-pham/moc-khoe.htm">Móc Khóe</a></li>
+              <li> <a href="./nhom-san-pham/kem-cat-da.htm?a=[memberphone]">Kềm Cắt Da</a></li>
+              <li> <a href="./nhom-san-pham/kem-cat-mong.htm?a=[memberphone]">Kềm Cắt Móng</a></li>
+              <li> <a href="./nhom-san-pham/sui-da.htm?a=[memberphone]">Sủi Da</a></li>
+              <li> <a href="./nhom-san-pham/giua.htm?a=[memberphone]">Giũa</a></li>
+              <li> <a href="./nhom-san-pham/moc-khoe.htm?a=[memberphone]">Móc Khóe</a></li>
             </ul>
           </li>
-          <li><a href="https://teknailsjsc.com/pages/album-anh.htm">Album ảnh</a></li>
-          <li><a href="https://teknailsjsc.com/pages/video.htm">Video</a></li>
-          <li><a href="https://teknailsjsc.com/pages/lien-he.htm">Liên hệ</a></li>
+          <li><a href="./pages/album-anh.htm?a=[memberphone]">Album ảnh</a></li>
+          <li><a href="./pages/video.htm?a=[memberphone]">Video</a></li>
+          <li><a href="./pages/lien-he.htm?a=[memberphone]">Liên hệ</a></li>
         </ul>
       </div>
     </div>

@@ -7,8 +7,8 @@ var footer = `
           <h5 class="m-b30 text-white ">VĂN PHÒNG CHÍNH</h5>
           <ul>
             <li><i class="fa fa-map-marker"></i><strong>Địa chỉ: </strong>B82 Bạch Đằng, P.2, Q. Tân Bình, TP Hồ Chí Minh</li>
-            <li><i class="fa fa-phone"></i><strong>Tel: </strong>1900-7107</li>
-            <li><i class="fa fa-envelope"></i><strong>Email: </strong>hotro@teknails.vn</li>
+            <li><i class="fa fa-phone"></i><strong>Tel: </strong>[memberphone]</li>
+            <li><i class="fa fa-envelope"></i><strong>Email: </strong>[memberemail]</li>
           </ul>
         </div>
       </div>
@@ -17,8 +17,6 @@ var footer = `
           <h5 class="m-b30 text-white ">CHI NHÁNH MIỀN BẮC</h5>
           <ul>
             <li><i class="fa fa-map-marker"></i><strong>Địa chỉ: </strong>Số 5 Ngõ 4 Phố Duy Tân, Phường Dịch Vọng Hậu Quận Cầu Giấy, Hà Nội</li>
-            <li><i class="fa fa-phone"></i><strong>Tel: </strong>1900-7107</li>
-            <li><i class="fa fa-envelope"></i><strong>Email: </strong>hotro@teknails.vn</li>
           </ul>
         </div>
       </div>
@@ -27,8 +25,6 @@ var footer = `
           <h5 class="m-b30 text-white ">NHÀ MÁY HỒ CHÍ MINH</h5>
           <ul>
             <li><i class="fa fa-map-marker"></i><strong>Địa chỉ: </strong>125 Tân Hương, Phường Tân Quý, Q. Tân Phú, TP Hồ Chí Minh</li>
-            <li><i class="fa fa-phone"></i><strong>Tel: </strong>1900-7107</li>
-            <li><i class="fa fa-envelope"></i><strong>Email: </strong>hotro@teknails.vn</li>
           </ul>
         </div>
       </div>
