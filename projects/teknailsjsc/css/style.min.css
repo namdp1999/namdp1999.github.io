@@ -10215,3 +10215,176 @@ ol.commentlist li .star-rating {
 .mfp-title {
   display: none;
 }
+
+/* w95 */
+.w95 {
+  background: url(https://cdn.aisystem.dev/uploads/hocvienkinhdoanhonline.club/505/background-video.jpg);
+}
+
+.w95-qua-tet {
+  background: url(https://cdn.aisystem.dev/uploads/quatet2021.net/1/background-video-2.jpg);
+}
+
+.w95 {
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  position: relative;
+  background-position: 0px 0px;
+  background-size: 100% 100%;
+}
+
+.w95_bg-video {
+  background-repeat: no-repeat;
+  padding: 10px 4px 30px 4px;
+  background: url(https://namgd.com/projects/teknailsjsc/images/background/bg-w95.jpg);
+  background-size: 100%;
+}
+
+.w95_inner-iframe {
+  position: relative;
+  padding-top: 54%;
+  padding-bottom: 78px;
+  background-repeat: no-repeat;
+}
+
+.w95_inner-iframe img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 262px;
+  width: 80%;
+  object-fit: cover;
+  margin: 10px auto 0;
+}
+
+.w95_button {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.w95_button a {
+  background: linear-gradient(180deg, #ff6a00, #ee0979);
+  padding: 14px 20px;
+  color: #fff;
+}
+
+.w95_button a:hover {
+  background: linear-gradient(180deg, #ee0979, #ff6a00);
+}
+
+.w95_person {
+  padding-bottom: 10px;
+}
+
+.w95_img_left img {
+  width: 220px;
+}
+
+.w95_img_right img {
+  width: 220px;
+  float: right;
+}
+
+.w95_img_left img {
+  position: relative;
+  animation-name: person-left;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes person-left {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 306px;
+    top: 0px;
+  }
+}
+
+.w95_img_right img {
+  position: relative;
+  animation-name: person-right;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes person-right {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+
+  100% {
+    right: 306px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .w95_inner-iframe img {
+    height: 154px;
+  }
+
+  .w95_button a {
+    font-size: 14px;
+  }
+
+  .w95_img_left img {
+    width: 160px;
+  }
+
+  .w95_img_right img {
+    width: 160px;
+  }
+
+  .w95_img_left img {
+    position: relative;
+    animation-name: person-left;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes person-left {
+    0% {
+      left: -100px;
+      top: 0px;
+    }
+
+    100% {
+      left: 10px;
+      top: 0px;
+    }
+  }
+
+  .w95_img_right img {
+    position: relative;
+    animation-name: person-right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes person-right {
+    0% {
+      right: -100px;
+      top: 0px;
+    }
+
+    100% {
+      right: 10px;
+      top: 0px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .w95 {
+    display: none;
+  }
+}
+
+/* end w95 */
