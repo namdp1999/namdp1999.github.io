@@ -10483,3 +10483,7 @@ ol.commentlist li .star-rating {
 .overlay-icon a i {
     padding-top: 12px;
 }
+
+.embed-responsive-16by9:before {
+    padding-top: 0;
+}
