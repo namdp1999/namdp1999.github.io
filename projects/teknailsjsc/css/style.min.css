@@ -10196,3 +10196,13 @@ ol.commentlist li .star-rating {
 .breadcrumb-row ul li:after {
     color: #000;
 }
+
+.post-price {
+  color: #863F98;
+}
+
+.dez-post-text_note {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+}
