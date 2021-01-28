@@ -2,11 +2,11 @@ var cong_tac_vien = `
 <div class="container-fluid">
   <div class="section-head text-center">
     <h2 class="text-primary-2 spa-title-head ">TUYỂN CỘNG TÁC VIÊN KINH DOANH</h2>
-    <div class="circle-sap bg-primary"></div>
+    <div class="circle-sap bg-primary-2"></div>
     <h2 class="heading-bottom">Hợp tác cùng TekNails - Chuyên Kinh doanh dụng cụ làm Nails</h2>
   </div>
   <div class="row equal-wraper">
-    <div class="col-md-6 col-sm-6 bg-primary p-lr0 dis-tbl equal-col">
+    <div class="col-md-6 col-sm-6 bg-primary-2 p-lr0 dis-tbl equal-col">
       <div class="p-a30 dis-tbl-cell">
         <div class="max-w500 m-auto p-tb30">
           <div class="row">

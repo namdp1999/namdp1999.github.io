@@ -8,7 +8,7 @@ var lien_he_tu_van = `
           <h2 class="title_lien_he">LIÊN HỆ TƯ VẤN</h2>
         </div>
       </div>
-      <div class="row mt-5 bg-primary">
+      <div class="row mt-5 bg-primary-2">
         <div class="col-md-4">
           <img class="img_tac_gia" src="[memberimage]" alt="">
           <p class="ten_tac_gia">[membername]</p>

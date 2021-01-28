@@ -4,7 +4,7 @@ var huong_dan_bao_quan = `
     <div class="col-md-6 col-sm-6 p-a0 equal-col">
       <img src="https://namgd.com/projects/teknailsjsc/images/product/kem-cat-da/dbn-09v.jpg" class="img-cover equal-col" />
     </div>
-    <div class="col-md-6 col-sm-6 bg-primary p-lr0 dis-tbl equal-col">
+    <div class="col-md-6 col-sm-6 bg-primary-2 p-lr0 dis-tbl equal-col">
       <div class="p-a30 dis-tbl-cell">
         <div class="max-w500 m-auto p-tb30">
           <div class="row">

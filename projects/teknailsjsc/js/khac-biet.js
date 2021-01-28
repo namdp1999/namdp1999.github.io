@@ -2,7 +2,7 @@ var khac_biet = `
 <div class="container">
   <div class="section-head text-center">
     <h2 class="text-primary-2 spa-title-head ">ĐIỂM KHÁC BIỆT</h2>
-    <div class="circle-sap bg-primary"></div>
+    <div class="circle-sap bg-primary-2"></div>
     <p class="heading-bottom">Sản phẩm có kiểu dáng sắc xảo và đa dạng, đáp ứng tất cả các mục đích sử dụng của người dùng đặc biệt là người thợ làm móng chuyên nghiệp.</p>
   </div>
   <div class="row p-t30">
@@ -11,7 +11,7 @@ var khac_biet = `
         <div class="dez-media text-center">
           <div class="p-a20 bg-gray gifts p-b5">
             <h4 class="text-uppercase dez-title">Thép nhập khẩu</h4>
-            <div class="dez-divider divider-3px bg-primary"><i class="icon-dot c-square"></i></div>
+            <div class="dez-divider divider-3px bg-primary-2"><i class="icon-dot c-square"></i></div>
           </div>
         </div>
         <div class="dez-info text-center p-t20">
@@ -24,7 +24,7 @@ var khac_biet = `
         <div class="dez-media text-center">
           <div class="p-a20 bg-gray gifts p-b5">
             <h4 class="text-uppercase dez-title">Ốc kềm bắt ngược</h4>
-            <div class="dez-divider divider-3px bg-primary"><i class="icon-dot c-square"></i></div>
+            <div class="dez-divider divider-3px bg-primary-2"><i class="icon-dot c-square"></i></div>
           </div>
         </div>
         <div class="dez-info text-center p-t20">
@@ -37,7 +37,7 @@ var khac_biet = `
         <div class="dez-media text-center">
           <div class="p-a20 bg-gray gifts p-b5">
             <h4 class="text-uppercase dez-title">Hàng chính hãng</h4>
-            <div class="dez-divider divider-3px bg-primary"><i class="icon-dot c-square"></i></div>
+            <div class="dez-divider divider-3px bg-primary-2"><i class="icon-dot c-square"></i></div>
           </div>
         </div>
         <div class="dez-info text-center p-t20">
