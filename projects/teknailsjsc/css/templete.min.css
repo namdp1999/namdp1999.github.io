@@ -1454,7 +1454,8 @@ footer.spa-footer .widget_archive ul li a, footer.spa-footer .widget_categories 
 .special-gifts .gifts .dez-title {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 0
+  margin-bottom: 0;
+  line-height: 46px;
 }
 
 .special-gifts .gifts.bg-gray {

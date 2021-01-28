@@ -10206,3 +10206,12 @@ ol.commentlist li .star-rating {
   font-weight: 600;
   font-size: 14px;
 }
+
+.bao-quan .list-num-count>li:before {
+  background-color: #fff;
+  color: #863F98;
+}
+
+.mfp-title {
+  display: none;
+}
