@@ -10479,3 +10479,7 @@ ol.commentlist li .star-rating {
 .circle-sap.bg-primary:before, .circle-sap.bg-primary:after {
   background-color: #B33BD7;
 }
+
+.overlay-icon a i {
+    padding-top: 12px;
+}
