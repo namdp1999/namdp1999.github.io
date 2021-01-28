@@ -2,6 +2,7 @@ var test = ``;
 
 document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/header.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/combining.js"></script>');
+document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/lien-he-tu-van.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/js/faq.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/plugins/revolution/v5.4.3/js/jquery.themepunch.tools.min.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/teknailsjsc/plugins/revolution/v5.4.3/js/jquery.themepunch.revolution.min.js"></script>');

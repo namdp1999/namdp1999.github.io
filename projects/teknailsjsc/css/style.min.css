@@ -10388,3 +10388,90 @@ ol.commentlist li .star-rating {
 }
 
 /* end w95 */
+
+/* w29 */
+.w29_lien_he_tu_van {
+  background-color: #DF99EF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.w29_lien_he_tu_van .title_lien_he {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.w29_lien_he_tu_van .bg_trang {
+  background-color: #fff;
+}
+
+.w29_lien_he_tu_van .img_tac_gia {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.w29_lien_he_tu_van .ten_tac_gia {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  text-align: center;
+  padding: 8px 10px;
+}
+
+.w29_lien_he_tu_van .ten_tac_gia:hover {
+  background-color: #863F98;
+}
+
+.w29_lien_he_tu_van .list_contact {
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.w29_lien_he_tu_van .list_contact li {
+  list-style-type: none;
+  width: calc(100%);
+  padding: 1.5rem 2.5rem;
+  color: #863F98;
+  overflow: hidden;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .w29_lien_he_tu_van .title_lien_he {
+    font-size: 24px;
+  }
+
+  .w29-qua-tet .bg-cam {
+    margin-top: -48px;
+  }
+
+  .w29_lien_he_tu_van .list_contact li {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .w29_lien_he_tu_van .list_contact {
+    margin-top: 16px;
+  }
+
+  .w29_lien_he_tu_van {
+    padding-bottom: 0px;
+  }
+}
+
+.w29_lien_he_tu_van.donafarm {
+  background-color: #2b5428;
+}
+
+.w29_lien_he_tu_van.donafarm .bg-cam {
+  background-color: #78bf45;
+}
+
+.w29_lien_he_tu_van.donafarm .ten_tac_gia:hover {
+  background-color: #2b5428;
+}
+/* end w29 */
