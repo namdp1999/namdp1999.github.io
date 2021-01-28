@@ -101,7 +101,7 @@ var faq = `
     </div>
     <div class="col-md-6">
       <div class="faq_img">
-        <img src="images/banner/faq.png" alt="">
+        <img src="https://namgd.com/projects/teknailsjsc/images/banner/faq.png" alt="">
       </div>
     </div>
   </div>
