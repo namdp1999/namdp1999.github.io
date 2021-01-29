@@ -1,9 +1,9 @@
 var test = ``;
 
-document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/header-mobi.js"></script>');
-document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/vs-menu-wrapper.js"></script>');
-document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/header-desk.js"></script>');
-document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/footer.js"></script>');
+// document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/header-mobi.js"></script>');
+// document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/vs-menu-wrapper.js"></script>');
+// document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/header-desk.js"></script>');
+// document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/footer.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/vendor/jquery-1.12.4.min.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/app.min.js"></script>');
 document.write('<script src="https://namdp1999.github.io/projects/muoihonghimas/assets/js/vscustom-carousel.min.js"></script>');

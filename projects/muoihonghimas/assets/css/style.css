@@ -10434,3 +10434,7 @@ table.checkout-ordertable tfoot tr:last-child td {
 .loader {
   display: none;
 }
+
+.bo-cong-thuong {
+  max-width: 200px!important;
+}
