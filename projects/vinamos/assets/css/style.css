@@ -10963,3 +10963,68 @@ p {
 .footer-area {
   margin-top: 80px;
 }
+
+/* vina107 */
+.vina107 {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);
+}
+
+.vina107 .navbar {
+}
+
+.vina107 .navbar-nav li:hover .dropdown-menu {
+  display: block;
+}
+
+.vina107 li.nav-item {
+  /* padding: 6px 6px; */
+  margin-right: 6px;
+}
+
+.vina107 li.nav-item:hover {
+  background: #C79725;
+  border-radius: 45px;
+}
+
+.vina107 li.vina107_login {
+  background: #C79725;
+  border-radius: 45px;
+}
+
+.vina107 a.nav-link {
+  color: #000 !important;
+}
+
+.vina107 a.nav-link:hover {
+  color: #fff;
+}
+
+.vina107 .dropdown-menu>li>a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+.vina107 .navbar-brand img {
+  height: 50px;
+}
+
+.vina107.donafarm .navbar {
+  background-color: #b8e896;
+}
+
+.vina107.donafarm a.nav-link {
+    color: #2b5428 !important;
+}
+
+.vina107.donafarm li.vina107_login {
+    background: #ffffff;
+}
+
+.vina107.donafarm li.nav-item:hover {
+    background: #78bf45;
+}
+/* end vina107 */
