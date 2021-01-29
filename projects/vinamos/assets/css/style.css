@@ -8613,7 +8613,7 @@ p {
 }
 
 .about-experience-area {
-  padding-top: 168px;
+  padding-top: 40px;
 }
 
 .about-experience-area .about-experience-content i {
@@ -10958,4 +10958,8 @@ p {
 
 .loader {
   display: none;
+}
+
+.footer-area {
+  margin-top: 80px;
 }
