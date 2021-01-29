@@ -10964,67 +10964,190 @@ p {
   margin-top: 80px;
 }
 
-/* vina107 */
-.vina107 {
-  position: sticky;
-  top: 0;
-  z-index: 1020;
-  background-color: #fff;
-  box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);
+#vina-01-menu {
+  /*Rev 140508*/
+  width: auto;
+  min-width: 300px;
+  height: 45px;
+  margin: 0 auto;
+  position: relative;
+  overflow: no-display;
+  /**/
+  color: #FFF;
+  background: #222;
+  border-bottom: 2px solid #222;
 }
 
-.vina107 .navbar {
+#vina-01-menu ul,
+#vina-01-menu li {
+  margin: 0 auto;
+  padding: 0 0;
+  list-style: none;
 }
 
-.vina107 .navbar-nav li:hover .dropdown-menu {
+#vina-01-menu ul {
+  height: 45px;
+  width: 100%
+}
+
+#vina-01-menu li {
+  float: left;
+  display: inline;
+  position: relative;
+  font: 0.9em 'Lato', sans-serif;
+  /*font-weight:700;*/
+}
+
+#vina-01-menu a {
+  /*main menu*/
+  display: block;
+  font-size: 120%;
+  line-height: 45px;
+  padding: 0 14px;
+  text-decoration: none;
+  color: #dedede;
+}
+
+#vina-01-menu li a:hover {
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+}
+
+#vina-01-menu input {
+  display: none;
+  margin: 0 0;
+  padding: 0 0;
+  width: 80px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer
+}
+
+#vina-01-menu label {
+  font: normal 20px Arial;
+  display: none;
+  width: 35px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  float: right;
+
+}
+
+/*BRAND*/
+#vina-01-menu label span {
+  font-size: 80%;
+  position: absolute;
+  left: 35px;
+}
+
+#vina-01-menu ul.menus {
+  /*SUBMENUS*/
+  height: auto;
+  overflow: hidden;
+  width: 170px;
+  background: #383838;
+  position: absolute;
+  z-index: 99;
+  display: none;
+}
+
+#vina-01-menu ul.menus li {
+  display: block;
+  width: 100%;
+  font: normal 100% Arial;
+  text-transform: none;
+  text-shadow: none;
+}
+
+#vina-01-menu ul.menus a {
+  color: #FFF;
+  line-height: 40px;
+  /*REV*/
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -ms-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+#vina-01-menu li:hover ul.menus {
   display: block;
 }
 
-.vina107 li.nav-item {
-  /* padding: 6px 6px; */
-  margin-right: 6px;
+#vina-01-menu ul.menus a:hover {
+
+  background: #bebebe;
+  color: #222;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
-.vina107 li.nav-item:hover {
-  background: #C79725;
-  border-radius: 45px;
-}
+/*END*/
+/*BASE CSS STYLE FOR RESPONSIVE MENU*/
+/**/
+/*MOBIL VERSION, 0 > 600px*/
+@media screen and (max-width: 600px) {
+  #vina-01-menu {
+    position: relative;
+    color: #fff;
+    background: #222;
+    border-bottom: 0px solid #222;
+  }
 
-.vina107 li.vina107_login {
-  background: #C79725;
-  border-radius: 45px;
-}
+  .menuwrap_logo {
+    text-align: center;
+    padding: 10px;
+  }
 
-.vina107 a.nav-link {
-  color: #000 !important;
-}
+  #vina-01-menu ul {
+    top: 100%;
+    left: 0;
+    height: auto;
+    display: none;
+    position: absolute;
+    z-index: 3;
+    background: #555;
+  }
 
-.vina107 a.nav-link:hover {
-  color: #fff;
-}
+  #vina-01-menu ul.menus {
+    width: 100%;
+    position: static;
+    padding-left: 0px;
+  }
 
-.vina107 .dropdown-menu>li>a:hover:after {
-  text-decoration: underline;
-  transform: rotate(-90deg);
-}
+  #vina-01-menu li {
+    font: normal 90% Arial;
+    width: auto;
+    display: block;
+    float: none;
+  }
 
-.vina107 .navbar-brand img {
-  height: 50px;
-}
+  #vina-01-menu input,
+  #vina-01-menu label {
+    margin: 0 2%;
+    float: right;
+    display: block;
+    position: absolute;
+  }
 
-.vina107.donafarm .navbar {
-  background-color: #b8e896;
-}
+  #vina-01-menu input {
+    z-index: 4;
+  }
 
-.vina107.donafarm a.nav-link {
-    color: #2b5428 !important;
-}
+  #vina-01-menu input:checked+label {
+    color: #fff
+  }
 
-.vina107.donafarm li.vina107_login {
-    background: #ffffff;
+  #vina-01-menu input:checked~ul {
+    display: block
+  }
 }
-
-.vina107.donafarm li.nav-item:hover {
-    background: #78bf45;
-}
-/* end vina107 */
