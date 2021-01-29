@@ -10954,3 +10954,7 @@ p {
     margin-bottom: 20px;
   }
 }
+
+.loader {
+  display: none;
+}
