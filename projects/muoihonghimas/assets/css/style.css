@@ -10592,3 +10592,212 @@ table.checkout-ordertable tfoot tr:last-child td {
 }
 
 /* end w95 */
+
+/* w29 */
+.w29_lien_he_tu_van {
+  background-color: #F6A1A1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.w29_lien_he_tu_van .title_lien_he {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.w29_lien_he_tu_van .bg_trang {
+  background-color: #fff;
+}
+
+.w29_lien_he_tu_van .img_tac_gia {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.w29_lien_he_tu_van .ten_tac_gia {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  text-align: center;
+  padding: 8px 10px;
+}
+
+.w29_lien_he_tu_van .ten_tac_gia:hover {
+  background-color: #EF6177;
+}
+
+.w29_lien_he_tu_van .list_contact {
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.w29_lien_he_tu_van .list_contact li {
+  list-style-type: none;
+  width: calc(100%);
+  padding: 1.5rem 2.5rem;
+  color: #863F98;
+  overflow: hidden;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .w29_lien_he_tu_van .title_lien_he {
+    font-size: 24px;
+  }
+
+  .w29-qua-tet .bg-cam {
+    margin-top: -48px;
+  }
+
+  .w29_lien_he_tu_van .list_contact li {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .w29_lien_he_tu_van .list_contact {
+    margin-top: 16px;
+  }
+
+  .w29_lien_he_tu_van {
+    padding-bottom: 0px;
+  }
+}
+
+.w29_lien_he_tu_van.donafarm {
+  background-color: #2b5428;
+}
+
+.w29_lien_he_tu_van.donafarm .bg-cam {
+  background-color: #78bf45;
+}
+
+.w29_lien_he_tu_van.donafarm .ten_tac_gia:hover {
+  background-color: #2b5428;
+}
+
+.bg-primary-2 {
+  background-color: #EF6177;
+}
+/* end w29 */
+
+/* w68 */
+.w68 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.w68_title {
+  color: #e34a1e;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.w68_img {
+  text-align: center;
+}
+
+.w68_img img {
+  max-width: 100%;
+}
+
+.w68_button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.w68_button img {
+  transition: transform .2s;
+}
+
+.w68_button img:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.w68 .card {
+  border-radius: 10px;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.w68 .card-header {
+  border-radius: 10px;
+  border: 0;
+  position: relative;
+  padding: 25px;
+}
+
+.w68 .card-header a {
+  display: block;
+  z-index: 999;
+}
+
+.w68 .card-block {
+  padding: 10px;
+  color: #444;
+}
+
+.w68 .card-header::after {
+  position: absolute;
+  content: '+';
+  top: 45%;
+  right: 12px;
+  color: white;
+  background: #145ed9;
+  height: 14px;
+  width: 14px;
+  line-height: 13px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.w68_button_2 {
+  text-align: center;
+}
+
+.w68_button_2 a {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+  padding: 16px 30px;
+  /* background: linear-gradient(180deg, #ff6a00, #ee0979); */
+  background: #00B642;
+}
+
+.w68_button_2 a:hover {
+  /* background: linear-gradient(180deg, #ee0979, #ff6a00); */
+}
+
+@media (max-width: 768px) {
+  .w68 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .w68_title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .w68 .card-header {
+    padding: 10px 24px;
+  }
+}
+
+.w68.donafarm {
+  background-color: #b8e896;
+}
+/* end w68 */
