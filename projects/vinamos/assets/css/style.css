@@ -1722,7 +1722,7 @@ p {
 .services-2-area {
   position: relative;
   z-index: 10;
-  padding-bottom: 133px;
+  padding-bottom: 40px;
 }
 
 .services-2-area .services-dot {
@@ -2652,7 +2652,8 @@ p {
 
 .about-2-area {
   background: #fafbff;
-  padding-bottom: 140px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .about-2-area .about-fetaures {
@@ -4512,8 +4513,8 @@ p {
 }
 
 .seo-core-features-area {
-  padding-top: 131px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .seo-core-features-area .section-title {
