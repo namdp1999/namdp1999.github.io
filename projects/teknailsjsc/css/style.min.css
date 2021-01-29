@@ -5010,7 +5010,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .widget_categories li {
-  text-align: right
+  /* text-align: right */
 }
 
 .widget_categories li a {
@@ -10605,3 +10605,7 @@ ol.commentlist li .star-rating {
   background-color: #b8e896;
 }
 /* end w68 */
+
+.bo-cong-thuong {
+  width: 60%;
+}
