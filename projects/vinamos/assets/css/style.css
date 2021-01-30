@@ -4353,6 +4353,7 @@ p {
 }
 
 .core-features-area .features-item {
+  height: 100%;
   border: 2px solid #f4f9ff;
   padding: 58px 38px 53px;
   position: relative;
@@ -11237,4 +11238,9 @@ p {
 .w68_img img {
   width: 100%!important;
   height: auto!important;
+}
+
+.w72_box-icon {
+    width: 50px!important;
+    margin: 10px auto!important;
 }
