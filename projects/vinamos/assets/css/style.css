@@ -4495,7 +4495,7 @@ p {
 .seo-core-features-area {
   padding-top: 40px;
   padding-bottom: 40px;
-  background: #a5b8d8;
+  background: #c9deff;
 }
 
 .seo-core-features-area .section-title {
@@ -11074,6 +11074,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 999;
+  background: #fff;
 }
 
 /*END*/
@@ -11160,6 +11161,9 @@ p {
   #vina-01-menu input:checked~ul {
     display: block;
     padding: 10px;
+  }
+  .w95 {
+    display: none;
   }
 }
 
