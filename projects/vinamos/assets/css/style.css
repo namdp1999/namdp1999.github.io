@@ -142,9 +142,9 @@ p {
   -ms-user-select: none;
   user-select: none;
   border: 1px solid #1655c5;
-  padding: 0 40px;
+  padding: 0 20px;
   font-size: 16px;
-  line-height: 60px;
+  line-height: 48px;
   border-radius: 40px;
   color: #fff;
   cursor: pointer;
@@ -3168,7 +3168,7 @@ p {
 }
 
 .about-team-area .team-item .team-content a {
-  position: absolute;
+  /* position: absolute;
   top: -30px;
   right: 40px;
   height: 60px;
@@ -3178,7 +3178,7 @@ p {
   border-radius: 50%;
   background-color: #0160e7;
   color: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(1, 96, 231, 0.3);
+  box-shadow: 0px 8px 16px 0px rgba(1, 96, 231, 0.3); */
 }
 
 .about-team-area .team-item:hover .team-thumb img {
@@ -11303,5 +11303,13 @@ p {
 
 .w68_button_2 a {
     background: #0157cd!important;
+    border-radius: 60px;
+}
+
+.about-team-area .team-item .team-content a {
+    background-color: #0160e7;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
     border-radius: 60px;
 }
