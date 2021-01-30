@@ -11233,3 +11233,8 @@ p {
 .w29_lien_he_tu_van .ten_tac_gia {
     margin-bottom: 20px;
 }
+
+.w68_img img {
+  width: 100%!important;
+  height: auto!important;
+}
