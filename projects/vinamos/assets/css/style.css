@@ -11106,6 +11106,12 @@ p {
   border-radius: 60px;
 }
 
+.menuwrap {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 /*END*/
 /*BASE CSS STYLE FOR RESPONSIVE MENU*/
 /**/
