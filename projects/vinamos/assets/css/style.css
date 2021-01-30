@@ -11244,3 +11244,20 @@ p {
     width: 50px!important;
     margin: 10px auto!important;
 }
+
+.core-features-area .features-item img {
+    width: 80px;
+}
+
+.w72_box-desc-link {
+  text-align: center;
+}
+
+.w72_box-desc-link a {
+  background: #0157cd;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 60px;
+}
