@@ -184,6 +184,7 @@ p {
   color: #1655c5;
   position: relative;
   z-index: 11;
+  font-size: 26px!important;
 }
 
 .section-title .title {
@@ -3110,7 +3111,7 @@ p {
 }
 
 .about-team-area {
-  background: #fafbff;
+  background: #f3f3f3;
 }
 
 .about-team-area .section-title span {
@@ -4334,9 +4335,11 @@ p {
 }
 
 .core-features-area .features-title .title span {
-  font-weight: 300;
+  font-weight: 500;
   color: #1343ad;
   position: relative;
+  font-size: 26px!important;
+  line-height: 40px;
 }
 
 .core-features-area .features-title .title span::before {
@@ -4385,7 +4388,7 @@ p {
   bottom: 0;
   height: 0px;
   width: 100%;
-  background: #0acc94;
+  background: #0157cd;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -4403,13 +4406,13 @@ p {
   line-height: 40px;
   border-radius: 50%;
   background: #edfff9;
-  color: #0acc94;
+  color: #0157cd;
 }
 
 .core-features-area .features-item .title {
-  font-size: 24px;
+  line-height: 22px;
+  font-size: 16px;
   font-weight: 500;
-  letter-spacing: -1px;
   padding-top: 23px;
 }
 
@@ -4422,7 +4425,7 @@ p {
 .core-features-area .features-item a {
   font-size: 14px;
   font-weight: 500;
-  color: #0acc94;
+  color: #0157cd;
   text-decoration: underline;
 }
 
@@ -4439,27 +4442,27 @@ p {
 }
 
 .core-features-area .features-item.item-3 a {
-  color: #ff7800;
+  color: #0157cd;
 }
 
 .core-features-area .features-item.item-3 i {
-  color: #ff7800;
+  color: #0157cd;
 }
 
 .core-features-area .features-item.item-3::before {
-  background: #ff7800;
+  background: #0157cd;
 }
 
 .core-features-area .features-item.item-4 a {
-  color: #f16667;
+  color: #0157cd;
 }
 
 .core-features-area .features-item.item-4 i {
-  color: #f16667;
+  color: #0157cd;
 }
 
 .core-features-area .features-item.item-4::before {
-  background: #f16667;
+  background: #0157cd;
 }
 
 .core-features-area .features-item:hover {
@@ -4473,15 +4476,15 @@ p {
 }
 
 .core-features-area.web-core-features-area .features-title>span {
-  color: #f57092;
+  color: #0157cd;
 }
 
 .core-features-area.web-core-features-area .features-title .title span {
-  color: #f57092;
+  color: #0157cd;
 }
 
 .core-features-area.web-core-features-area .features-title .title span::before {
-  background: #f57092;
+  background: #0157cd;
 }
 
 .core-features-area.web-core-features-area .features-item i {
@@ -4495,7 +4498,7 @@ p {
 .seo-core-features-area {
   padding-top: 40px;
   padding-bottom: 40px;
-  background: #c9deff;
+  background: #f3f3f3;
 }
 
 .seo-core-features-area .section-title {
@@ -7827,12 +7830,12 @@ p {
   height: 100px;
   width: 60px;
   background-image: -moz-linear-gradient(90deg, #ff5388 0%, #ff3d69 100%);
-  background-image: -webkit-linear-gradient(90deg, #ff5388 0%, #ff3d69 100%);
+  background-image: -webkit-linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
   background-image: -ms-linear-gradient(90deg, #ff5388 0%, #ff3d69 100%);
-  box-shadow: 0px 16px 32px 0px rgba(255, 49, 165, 0.6);
+  box-shadow: 0px 16px 32px 0px rgb(22 83 194);
   text-align: center;
   line-height: 100px;
-  color: #fff;
+  color: #1653c2;
   font-size: 24px;
   border-radius: 40px;
   cursor: pointer;
@@ -7856,7 +7859,9 @@ p {
 
 .footer-area .footer-bg .footer-item .footer-about .title {
   color: #fff;
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 40px;
 }
 
 .footer-area .footer-bg .footer-item .footer-about p {
@@ -8586,6 +8591,7 @@ p {
 
 .about-experience-area {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .about-experience-area .about-experience-content i {
@@ -8593,7 +8599,7 @@ p {
   width: 80px;
   text-align: center;
   line-height: 80px;
-  background: #0acc94;
+  background: #0157cd;
   color: #fff;
   font-size: 30px;
   border-radius: 50% 50% 0 50%;
@@ -11172,11 +11178,14 @@ p {
 }
 
 .w72_title {
-    color: #ffffff!important;
+  color: #ffffff!important;
+  font-size: 26px!important;
+  line-height: 40px;
+  font-weight: 500!important;
 }
 
 .w91_form_dat_hang {
-    background-color: #1653c2!important;
+    background-image: linear-gradient(#f3f3f3, #1653c2);
     padding-bottom: 60px!important;
 }
 
@@ -11186,8 +11195,37 @@ p {
 
 .w29_lien_he_tu_van .title_lien_he {
     color: #073b91!important;
+    font-size: 26px!important;
+    font-weight: 500!important;
+    line-height: 40px;
+}
+
+.w91_form_dat_hang .w91_title {
+    color: #0157cd!important;
+    font-size: 26px!important;
+    font-weight: 500!important;
+    line-height: 40px;
 }
 
 .w29_lien_he_tu_van {
-    background-color: #ffffff!important;
+    background-color: #F3F3F3!important;
+}
+
+.section-title h3 {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.w68_title {
+    color: #0157cd!important;
+    font-weight: 500!important;
+    font-size: 26px!important;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.w95_button a {
+  padding: 14px 20px;
+  color: #fff;
 }
