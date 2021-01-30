@@ -10665,7 +10665,8 @@
 
 	.woocommerce ul.products li.product .box-images img {
 	    border-bottom: 1px solid #f2f2f2;
-	    padding-bottom: 20px
+	    padding-bottom: 20px;
+			max-height: 380px;
 	}
 
 	.woocommerce ul.products li.product .box-images:after {
@@ -10776,7 +10777,10 @@
 
 	.woocommerce ul.products li.product h4 {
 	    font-weight: 600;
-	    font-size: 20px
+	    font-size: 20px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	}
 
 	.woocommerce ul.products li.product a {
