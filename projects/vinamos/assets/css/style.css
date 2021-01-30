@@ -11163,12 +11163,13 @@ p {
 
   #vina-01-menu a {
     display: block;
-    font-size: 120%;
-    line-height: 45px;
+    font-size: 90%;
+    line-height: 27px;
     padding: 2px 20px;
+    margin-left: 28px;
     text-decoration: none;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   #vina-01-menu input:checked~ul {
@@ -11178,6 +11179,13 @@ p {
 
   .w95 {
     display: none;
+  }
+  .vina-01_logo img {
+    height: 40px;
+    width: auto;
+  }
+  .menuwrap_logo {
+    padding: 5px!important;
   }
 }
 
