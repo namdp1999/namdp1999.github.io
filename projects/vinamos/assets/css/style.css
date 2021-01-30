@@ -11296,3 +11296,12 @@ p {
 .w72_box-title {
   color: #0157cd!important;
 }
+
+.w68_img {
+  margin-bottom: 30px;
+}
+
+.w68_button_2 a {
+    background: #0157cd!important;
+    border-radius: 60px;
+}

@@ -19,9 +19,9 @@ document.write('<script type="text/javascript" src="https://namgd.com/projects/m
 document.write('<script type="text/javascript" src="https://namgd.com/projects/mocnguyen/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>');
 document.write('<script type="text/javascript" src="https://namgd.com/projects/mocnguyen/js/revolution/extensions/revolution.extension.video.min.js"></script>');
 document.write('<script src="https://namgd.com/projects/mocnguyen/js/scripts.min.js"></script>');
-document.write('<script src="https://namgd.com/projects/mocnguyen/js/header.js"></script>');
-document.write('<script src="https://namgd.com/projects/mocnguyen/js/primary-mobile-nav.js"></script>');
-document.write('<script src="https://namgd.com/projects/mocnguyen/js/footer-widgets.js"></script>');
-document.write('<script src="https://namgd.com/projects/mocnguyen/js/footer-widgets-middle.js"></script>');
-document.write('<script src="https://namgd.com/projects/mocnguyen/js/colophon.js"></script>');
+// document.write('<script src="https://namgd.com/projects/mocnguyen/js/header.js"></script>');
+// document.write('<script src="https://namgd.com/projects/mocnguyen/js/primary-mobile-nav.js"></script>');
+// document.write('<script src="https://namgd.com/projects/mocnguyen/js/footer-widgets.js"></script>');
+// document.write('<script src="https://namgd.com/projects/mocnguyen/js/footer-widgets-middle.js"></script>');
+// document.write('<script src="https://namgd.com/projects/mocnguyen/js/colophon.js"></script>');
 document.write('<script src="https://namgd.com/projects/mocnguyen/js/script.js"></script>');
