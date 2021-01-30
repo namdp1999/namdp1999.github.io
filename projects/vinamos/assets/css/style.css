@@ -11313,3 +11313,8 @@ p {
     margin-top: 10px;
     border-radius: 60px;
 }
+
+.w95_inner-iframe img {
+    height: 262px!important;
+    object-fit: cover!important;
+}
