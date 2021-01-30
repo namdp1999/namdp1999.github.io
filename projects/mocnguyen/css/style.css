@@ -13676,3 +13676,13 @@ display: none;
 	background-color: #fff;
 }
 /* end w29 */
+
+.form-dang-ky {
+	background-color: #B8E896;
+}
+
+.form-dang-ky_detail {
+	background-color: #9CC212;
+	padding: 20px;
+	border-radius: 15px;
+}
