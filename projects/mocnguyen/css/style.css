@@ -574,7 +574,7 @@
 	}
 
 	.pagepadding {
-	    padding: 100px 0 120px;
+	    padding: 60px 0 60px;
 	}
 	/*--------------------------------------------------------------
    Typography
@@ -13276,3 +13276,190 @@ display: none;
   	padding-bottom: 0.4em;
 	}
 }
+
+.productinfo>.price {
+	font-weight: 600;
+  color: #9cc212;
+  font-size: 24px;
+}
+
+.button_buy {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #fff;
+    color: #9cc212;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    border: 2px solid #9cc212;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 17px 32px;
+    outline: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.button_buy:hover {
+    background: #9cc212;
+    color: #fff;
+}
+
+.blogpage .blog-wrapper iframe {
+	width: 100%;
+	height: 208px;
+}
+
+/* w95 */
+.w95 {
+  background: url(https://namgd.com/projects/mocnguyen/images/bg/bg-w95.jpg);
+}
+
+.w95 {
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  position: relative;
+  background-position: 0px 0px;
+  background-size: 100% 100%;
+}
+
+.w95_bg-video {
+  background-repeat: no-repeat;
+  padding: 10px 4px 30px 4px;
+  background: url(https://cdn.aisystem.dev/uploads/hocvienkinhdoanhonline.club/505/laptop.png);
+  background-size: 100%;
+}
+
+.w95_inner-iframe {
+  position: relative;
+  padding-top: 54%;
+  padding-bottom: 78px;
+  background-repeat: no-repeat;
+}
+
+.w95_inner-iframe img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 262px;
+  width: 80%;
+  object-fit: cover;
+  margin: 10px auto 0;
+}
+
+.w95_person {
+  padding-bottom: 10px;
+}
+
+.w95_img_left img {
+  width: 220px;
+}
+
+.w95_img_right img {
+  width: 220px;
+  float: right;
+}
+
+.w95_img_left img {
+  position: relative;
+  animation-name: person-left;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes person-left {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 306px;
+    top: 0px;
+  }
+}
+
+.w95_img_right img {
+  position: relative;
+  animation-name: person-right;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes person-right {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+
+  100% {
+    right: 306px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .w95_inner-iframe img {
+    height: 154px;
+  }
+
+  .w95_button a {
+    font-size: 14px;
+  }
+
+  .w95_img_left img {
+    width: 160px;
+  }
+
+  .w95_img_right img {
+    width: 160px;
+  }
+
+  .w95_img_left img {
+    position: relative;
+    animation-name: person-left;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes person-left {
+    0% {
+      left: -100px;
+      top: 0px;
+    }
+
+    100% {
+      left: 10px;
+      top: 0px;
+    }
+  }
+
+  .w95_img_right img {
+    position: relative;
+    animation-name: person-right;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes person-right {
+    0% {
+      right: -100px;
+      top: 0px;
+    }
+
+    100% {
+      right: 10px;
+      top: 0px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .w95 {
+    display: none;
+  }
+}
+
+/* end w95 */
