@@ -11163,13 +11163,12 @@ p {
 
   #vina-01-menu a {
     display: block;
-    font-size: 90%;
-    line-height: 27px;
+    font-size: 120%;
+    line-height: 28px;
     padding: 2px 20px;
-    margin-left: 28px;
     text-decoration: none;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   #vina-01-menu input:checked~ul {
