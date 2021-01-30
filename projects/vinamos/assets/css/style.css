@@ -9463,8 +9463,8 @@ p {
 }
 
 .seo-area .seo-content .title {
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 26px;
+  line-height: 40px;
   color: #002e44;
   letter-spacing: -1px;
   padding-top: 10px;
@@ -10998,9 +10998,9 @@ p {
 
 #vina-01-menu a {
   display: block;
-  font-size: 120%;
-  line-height: 45px;
-  padding: 0 14px;
+  font-size: 110%;
+  line-height: 42px;
+  padding: 0 10px;
   text-decoration: none;
   color: #0157cd;
   font-weight: 600;
