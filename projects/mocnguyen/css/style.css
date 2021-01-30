@@ -13335,6 +13335,7 @@ display: none;
   padding-top: 54%;
   padding-bottom: 78px;
   background-repeat: no-repeat;
+	margin-bottom: 20px;
 }
 
 .w95_inner-iframe img {
@@ -13685,4 +13686,11 @@ display: none;
 	background-color: #9CC212;
 	padding: 20px;
 	border-radius: 15px;
+}
+
+.button_zoom{
+	background-color: #9CC212;
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 60px;
 }
