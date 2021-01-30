@@ -184,7 +184,7 @@ p {
   color: #1655c5;
   position: relative;
   z-index: 11;
-  font-size: 26px!important;
+  font-size: 26px !important;
 }
 
 .section-title .title {
@@ -4338,7 +4338,7 @@ p {
   font-weight: 500;
   color: #1343ad;
   position: relative;
-  font-size: 26px!important;
+  font-size: 26px !important;
   line-height: 40px;
 }
 
@@ -4542,6 +4542,7 @@ p {
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
+  width: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -10913,15 +10914,19 @@ p {
     width: 100%;
     height: 300px;
   }
+
   .video-dot {
     display: none;
   }
+
   .section-title {
     padding-bottom: 20px;
   }
+
   .intro-video-area .intro-video-bg .section-title {
     padding-bottom: 314px;
   }
+
   .intro-video-area {
     margin-bottom: 20px;
   }
@@ -10986,7 +10991,6 @@ p {
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-
 }
 
 #vina-01-menu input {
@@ -11007,7 +11011,6 @@ p {
   line-height: 36px;
   text-align: center;
   float: right;
-
 }
 
 /*BRAND*/
@@ -11052,7 +11055,6 @@ p {
 }
 
 #vina-01-menu ul.menus a:hover {
-
   background: #bebebe;
   color: #222;
   -webkit-transition: all .1s ease-in-out;
@@ -11073,7 +11075,7 @@ p {
 
 .vina-01-active {
   background: #0157cd;
-  color: #fff!important;
+  color: #fff !important;
   border-radius: 60px;
 }
 
@@ -11143,19 +11145,22 @@ p {
     display: block
   }
 }
+
 @media (min-width: 768px) {
   .h-desktop {
-    display: none!important;
+    display: none !important;
   }
 }
 
 @media (max-width: 768px) {
   .h-mobile {
-    display: none!important;
+    display: none !important;
   }
+
   #vina-01-menu {
     height: 54px;
   }
+
   #vina-01-menu a {
     display: block;
     font-size: 120%;
@@ -11165,51 +11170,53 @@ p {
     color: #ffffff;
     font-weight: 600;
   }
+
   #vina-01-menu input:checked~ul {
     display: block;
     padding: 10px;
   }
+
   .w95 {
     display: none;
   }
 }
 
 .w72 {
-    background-color: #1343ad!important;
+  background-color: #1343ad !important;
 }
 
 .w72_title {
-  color: #ffffff!important;
-  font-size: 26px!important;
+  color: #ffffff !important;
+  font-size: 26px !important;
   line-height: 40px;
-  font-weight: 500!important;
+  font-weight: 500 !important;
 }
 
 .w91_form_dat_hang {
-    background-image: linear-gradient(#f3f3f3, #f3f3f3);
-    padding-bottom: 60px!important;
+  background-image: linear-gradient(#f3f3f3, #f3f3f3);
+  padding-bottom: 60px !important;
 }
 
 .w29_lien_he_tu_van .bg_trang {
-    background-color: #c9deff!important;
+  background-color: #c9deff !important;
 }
 
 .w29_lien_he_tu_van .title_lien_he {
-    color: #073b91!important;
-    font-size: 26px!important;
-    font-weight: 500!important;
-    line-height: 40px;
+  color: #073b91 !important;
+  font-size: 26px !important;
+  font-weight: 500 !important;
+  line-height: 40px;
 }
 
 .w91_form_dat_hang .w91_title {
-    color: #0157cd!important;
-    font-size: 26px!important;
-    font-weight: 500!important;
-    line-height: 40px;
+  color: #0157cd !important;
+  font-size: 26px !important;
+  font-weight: 500 !important;
+  line-height: 40px;
 }
 
 .w29_lien_he_tu_van {
-    background-color: #fff!important;
+  background-color: #fff !important;
 }
 
 .section-title h3 {
@@ -11218,12 +11225,12 @@ p {
 }
 
 .w68_title {
-    color: #0157cd!important;
-    font-weight: 500!important;
-    font-size: 26px!important;
-    text-align: center;
-    margin-bottom: 30px;
-    line-height: 40px;
+  color: #0157cd !important;
+  font-weight: 500 !important;
+  font-size: 26px !important;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 40px;
 }
 
 .w95_button a {
@@ -11232,26 +11239,26 @@ p {
 }
 
 .w95_button a {
-    background: #0157cd!important;
-    border-radius: 60px;
+  background: #0157cd !important;
+  border-radius: 60px;
 }
 
 .w29_lien_he_tu_van .ten_tac_gia {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .w68_img img {
-  width: 100%!important;
-  height: auto!important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .w72_box-icon {
-    width: 50px!important;
-    margin: 10px auto!important;
+  width: 50px !important;
+  margin: 10px auto !important;
 }
 
 .core-features-area .features-item img {
-    width: 80px;
+  width: 80px;
 }
 
 .w72_box-desc-link {
@@ -11265,4 +11272,12 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 60px;
+}
+
+.about-experience-content img {
+  width: 50px;
+}
+
+.about-experience-area .experience-item img {
+  width: 60px;
 }
