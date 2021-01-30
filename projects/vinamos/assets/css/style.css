@@ -198,18 +198,6 @@ p {
   }
 }
 
-.section-title .title::before {
-  position: absolute;
-  content: 'Services';
-  left: 50%;
-  bottom: 0;
-  font-size: 200px;
-  line-height: 180px;
-  color: #f9fbff;
-  transform: translateX(-50%);
-  z-index: -1;
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title .title::before {
     font-size: 160px;
@@ -1875,10 +1863,6 @@ p {
 
 .services-features-area .section-title span {
   color: #00c3ff;
-}
-
-.services-features-area .section-title .title::before {
-  content: 'Feateurs';
 }
 
 .services-features-area .features-tab-btns {
@@ -4049,10 +4033,6 @@ p {
   padding-bottom: 66px;
 }
 
-.core-features-area .section-title .title::before {
-  content: 'Features';
-}
-
 .core-features-area .core-features-item .item {
   padding-left: 130px;
   margin-right: 180px;
@@ -4515,6 +4495,7 @@ p {
 .seo-core-features-area {
   padding-top: 40px;
   padding-bottom: 40px;
+  background: #a5b8d8;
 }
 
 .seo-core-features-area .section-title {
@@ -5160,11 +5141,6 @@ p {
   color: #f87b81;
 }
 
-.team-4-area .section-title .title::before {
-  color: #f2f7ff;
-  content: 'Team';
-}
-
 .team-4-area .team-item .team-thumb img {
   width: 100%;
 }
@@ -5584,10 +5560,6 @@ p {
 ===========================*/
 .news-area {
   margin-bottom: 130px;
-}
-
-.news-area .section-title .title::before {
-  content: 'News';
 }
 
 .news-area .news-item .news-thumb {
@@ -9911,14 +9883,6 @@ p {
   color: #f87b81;
 }
 
-.pricing-area.pricing-4-area .pricing-header .section-title .title::before {
-  display: block;
-  content: 'Pricing';
-  color: #f2f7ff;
-  left: -12px;
-  transform: translateX(0);
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing-area.pricing-4-area .pricing-header .section-title .title::before {
     display: none;
@@ -10961,7 +10925,7 @@ p {
 }
 
 .footer-area {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 #vina-01-menu {
@@ -11197,4 +11161,29 @@ p {
     display: block;
     padding: 10px;
   }
+}
+
+.w72 {
+    background-color: #1343ad!important;
+}
+
+.w72_title {
+    color: #ffffff!important;
+}
+
+.w91_form_dat_hang {
+    background-color: #1653c2!important;
+    padding-bottom: 60px!important;
+}
+
+.w29_lien_he_tu_van .bg_trang {
+    background-color: #c9deff!important;
+}
+
+.w29_lien_he_tu_van .title_lien_he {
+    color: #073b91!important;
+}
+
+.w29_lien_he_tu_van {
+    background-color: #ffffff!important;
 }
