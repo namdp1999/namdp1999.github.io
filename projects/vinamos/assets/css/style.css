@@ -10965,17 +10965,15 @@ p {
 }
 
 #vina-01-menu {
-  /*Rev 140508*/
   width: auto;
   min-width: 300px;
-  height: 45px;
+  padding: 10px;
+  height: 80px;
   margin: 0 auto;
   position: relative;
-  overflow: no-display;
-  /**/
-  color: #FFF;
-  background: #222;
-  border-bottom: 2px solid #222;
+  color: #0157cd;
+  background: #fff;
+  box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);
 }
 
 #vina-01-menu ul,
@@ -10999,17 +10997,19 @@ p {
 }
 
 #vina-01-menu a {
-  /*main menu*/
   display: block;
   font-size: 120%;
   line-height: 45px;
   padding: 0 14px;
   text-decoration: none;
-  color: #dedede;
+  color: #0157cd;
+  font-weight: 600;
 }
 
 #vina-01-menu li a:hover {
-  color: #fff;
+  color: #ffffff;
+  background: #005bd1;
+  border-radius: 60px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
@@ -11091,6 +11091,21 @@ p {
   transition: all .1s ease-in-out;
 }
 
+.vina-01_logo img {
+  height: 60px;
+  width: auto;
+}
+
+#vina-01-menu li a.vina-01_logo:hover {
+  background: #fff;
+}
+
+.vina-01-active {
+  background: #0157cd;
+  color: #fff!important;
+  border-radius: 60px;
+}
+
 /*END*/
 /*BASE CSS STYLE FOR RESPONSIVE MENU*/
 /**/
@@ -11099,8 +11114,7 @@ p {
   #vina-01-menu {
     position: relative;
     color: #fff;
-    background: #222;
-    border-bottom: 0px solid #222;
+    background: #0157cd;
   }
 
   .menuwrap_logo {
@@ -11115,7 +11129,7 @@ p {
     display: none;
     position: absolute;
     z-index: 3;
-    background: #555;
+    background: #33a7ff;
   }
 
   #vina-01-menu ul.menus {
@@ -11149,5 +11163,32 @@ p {
 
   #vina-01-menu input:checked~ul {
     display: block
+  }
+}
+@media (min-width: 768px) {
+  .h-desktop {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .h-mobile {
+    display: none!important;
+  }
+  #vina-01-menu {
+    height: 54px;
+  }
+  #vina-01-menu a {
+    display: block;
+    font-size: 120%;
+    line-height: 45px;
+    padding: 2px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  #vina-01-menu input:checked~ul {
+    display: block;
+    padding: 10px;
   }
 }
