@@ -4497,8 +4497,8 @@ p {
 }
 
 .seo-core-features-area {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: #f3f3f3;
 }
 
@@ -8617,20 +8617,20 @@ p {
 
 @media (max-width: 767px) {
   .about-experience-area .about-experience-content .title {
-    font-size: 40px;
+    font-size: 20px!important;
   }
 }
 
 .about-experience-area .about-experience-content p {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 1.4;
   color: #002e44;
   padding: 0 60px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-experience-area .about-experience-content p {
-    padding: 0 0 30px;
+    padding: 0 0 0px;
   }
 }
 
@@ -9486,8 +9486,8 @@ p {
 
 .seo-area .seo-content p {
   line-height: 28px;
-  padding-top: 17px;
-  padding-bottom: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11065,7 +11065,7 @@ p {
 }
 
 .vina-01_logo img {
-  height: 60px;
+  height: 30px;
   width: auto;
 }
 
@@ -11319,6 +11319,10 @@ p {
     object-fit: cover!important;
 }
 
+.seo-core-features-area .seo-core-features-item {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 768px) {
   .section-title h3 {
     font-size: 20px;
@@ -11345,5 +11349,16 @@ p {
   }
   .seo-core-features-area .section-title {
     padding-bottom: 20px;
+  }
+  .seo-core-features-area .seo-core-features-item {
+    margin-bottom: 10px;
+  }
+  .about-experience-area .experience-item {
+    height: 100%;
+    padding: 20px 0;
+  }
+  .w91_form_dat_hang .w91_title span {
+    font-size: 21px !important;
+    line-height: 1.4;
   }
 }
