@@ -11594,6 +11594,32 @@ a:hover {
 .w107.donafarm li.nav-item:hover {
     background: #78bf45;
 }
+
+.w107.dphsnet {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: #b8e896;
+}
+.w107.dphsnet .navbar-brand img {
+    height: 60px;
+}
+.w107.dphsnet .navbar {
+    background-color: #B8E896;
+}
+.w107.dphsnet a.nav-link {
+    color: #366500 !important;
+}
+.w107.dphsnet li.w107_login {
+    background: #fff;
+    border-radius: 45px;
+}
+.w107.dphsnet li.nav-item:hover {
+    background: #78bf45;
+}
+.w107.dphsnet li.nav-item:hover a.nav-link {
+    color: #fff !important;
+}
 /* end w107 */
 /* w108 */
 .w108 {
