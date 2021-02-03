@@ -540,12 +540,12 @@ a:hover {
 
 .w9_price-content ul {
   position: relative;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .w9_price-content ul li {
   list-style: none;
-  font-size: 16px;
+  font-size: 15px;
   padding: 5px 15px;
   color: #777;
   cursor: pointer;
