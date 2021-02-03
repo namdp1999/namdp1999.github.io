@@ -235,6 +235,10 @@ a:hover {
   padding-bottom: 50px;
 }
 
+.w4_logo img {
+  height: 30px;
+}
+
 .w4_san_pham_video_2 .w4_video_2 iframe {
   width: 100%;
   height: 400px;
@@ -525,7 +529,7 @@ a:hover {
 .w9_price-table .w9_price-head h2 {
   margin: 0;
   padding: 20px;
-  font-size: 34px;
+  font-size: 22px;
   color: #fff;
   font-weight: 700;
 }
