@@ -3372,7 +3372,7 @@ a:hover {
 /* end w24 */
 /* w25 */
 .w25_section_huong_dan_quan_tri.dphsnet {
-  background-color: #F3F3F3;
+  background-color: #f4f8fe;
 }
 .w25_section_huong_dan_quan_tri .section_product_details {
   padding: 30px 0;
@@ -5339,8 +5339,8 @@ a:hover {
 
 .w30_loi_ich .nut_mua_ngay {
   background: linear-gradient(180deg, #ff6a00, #ee0979);
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 16px;
   color: #fff;
   padding: 8px 20px;
 }
@@ -5903,7 +5903,10 @@ a:hover {
 .w38_section_list_tin_tuc_1 .title {
   color: #000;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  background: #fdaf05;
+  padding-top: 10px;
+  border-radius: 10px;
 }
 
 .w38_section_list_tin_tuc_1 .text-center {
