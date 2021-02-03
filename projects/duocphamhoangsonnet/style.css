@@ -3371,8 +3371,11 @@ a:hover {
 
 /* end w24 */
 /* w25 */
+.w25_section_huong_dan_quan_tri.dphsnet {
+  background-color: #F3F3F3;
+}
 .w25_section_huong_dan_quan_tri .section_product_details {
-  padding: 60px 0;
+  padding: 30px 0;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -3390,17 +3393,11 @@ a:hover {
   font-size: 36px;
   margin: 0;
   font-weight: 700;
-  height: 122px;
-  line-height: 148px;
-  background-image: url(https://bizweb.dktcdn.net/100/263/474/themes/787685/assets/h_title_bg.png?1600442835890);
+  line-height: 1;
   background-repeat: no-repeat;
   background-position: center top;
   margin-bottom: 20px;
-  color: #fff;
-}
-
-.w25_section_huong_dan_quan_tri .section_product_details .section-title h2 {
-  background-image: url(https://bizweb.dktcdn.net/100/263/474/themes/787685/assets/chitiet_title.png?1600442835890);
+  color: #000;
 }
 
 .w25_section_huong_dan_quan_tri .margin-bottom-50 {
@@ -3428,7 +3425,8 @@ a:hover {
 }
 
 .w25_section_huong_dan_quan_tri .section_product_details li {
-  color: #fff;
+  color: #478600;
+  padding: 2px;
 }
 
 .w25_section_huong_dan_quan_tri .margin-top-30 {
@@ -5335,7 +5333,7 @@ a:hover {
 }
 
 .w30_loi_ich .title_w30_loi_ich {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
 }
 
