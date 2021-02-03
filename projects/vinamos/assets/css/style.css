@@ -11325,7 +11325,7 @@ p {
 
 @media (max-width: 768px) {
   .section-title h3 {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
   }
   .core-features-area .features-title {
@@ -11335,11 +11335,11 @@ p {
     padding: 15px 38px 15px;
   }
   .section-title span {
-    font-size: 20px !important;
+    font-size: 18px !important;
     line-height: 30px;
   }
   .seo-area .seo-content .title span {
-    font-size: 20px!important;
+    font-size: 18px!important;
     line-height: 30px;
   }
   .w72_title {
