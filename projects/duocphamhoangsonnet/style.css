@@ -521,7 +521,7 @@ a:hover {
 
 .w9_price-table .w9_price-head {
   padding: 25px;
-  background: linear-gradient(45deg, #2188f3, #5121f3);
+  background: linear-gradient(45deg, #66b011, #ffaf01);
   border-bottom-left-radius: 75%;
   border-bottom-right-radius: 25%;
 }
@@ -564,8 +564,8 @@ a:hover {
 }
 
 .w9_price-content .nam_price {
-  color: rgb(242, 67, 13);
-  font-size: 18px;
+  color: #66B011;
+  font-size: 26px;
   font-weight: bold;
   text-align: center;
   line-height: 1.2;
@@ -578,7 +578,7 @@ a:hover {
 
 .w9_price-button a {
   padding: 10px 40px;
-  background: linear-gradient(45deg, #ff8863, #F2430D);
+  background: linear-gradient(45deg, #66b011, #427b00);
   color: #fff;
   border-radius: 35px;
   font-size: 18px;
@@ -587,11 +587,11 @@ a:hover {
 }
 
 .w9_price-button a:hover {
-  background: linear-gradient(45deg, #F2430D, #F2430D);
+  background: linear-gradient(45deg, #427b00, #427b00);
 }
 
 .w9_section_dich_vu .w9_title {
-  color: rgb(5, 31, 77);
+  color: #007900;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -3258,7 +3258,7 @@ a:hover {
   color: #fff;
   margin-top: 0px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   text-transform: uppercase;
 }
 
@@ -3290,7 +3290,7 @@ a:hover {
   height: 60px;
   margin-right: 10px;
   border-radius: 50%;
-  background: #3aade1;
+  background: #FFAF01;
   align-items: center;
   justify-content: center;
 }
@@ -3372,13 +3372,16 @@ a:hover {
 /* end w24 */
 /* w25 */
 .w25_section_huong_dan_quan_tri.dphsnet {
-  background-color: #f4f8fe;
+  background-color: #fff;
 }
 .w25_section_huong_dan_quan_tri .section_product_details {
   padding: 30px 0;
   background-size: cover;
   background-position: center center;
   position: relative;
+}
+.w25_section_huong_dan_quan_tri.dphsnet .chitiet-item {
+  margin-bottom: 20px;
 }
 
 .w25_section_huong_dan_quan_tri .a-center {
@@ -3390,14 +3393,12 @@ a:hover {
 }
 
 .w25_section_huong_dan_quan_tri .section .section-title h2 {
-  font-size: 36px;
-  margin: 0;
+  font-size: 26px;
   font-weight: 700;
-  line-height: 1;
   background-repeat: no-repeat;
   background-position: center top;
   margin-bottom: 20px;
-  color: #000;
+  color: #66B011;
 }
 
 .w25_section_huong_dan_quan_tri .margin-bottom-50 {
@@ -3425,7 +3426,7 @@ a:hover {
 }
 
 .w25_section_huong_dan_quan_tri .section_product_details li {
-  color: #478600;
+  color: #000;
   padding: 2px;
 }
 
@@ -3486,13 +3487,13 @@ a:hover {
 }
 
 .w25_dang_nhap_tai_day {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
-  line-height: 1.6;
-  background-color: #c81f17;
+  background-color: #66b011;
   padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .w25_dang_nhap_tai_day:hover {
@@ -5227,7 +5228,7 @@ a:hover {
 /* end w28 */
 /* w29 */
 .w29_lien_he_tu_van {
-  background-color: #FFAF01;
+  background-color: #b8e896;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -5243,7 +5244,7 @@ a:hover {
 }
 
 .w29_lien_he_tu_van .title_lien_he {
-  color: #fff;
+  color: #007900;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -5327,26 +5328,23 @@ a:hover {
 /* end w29 */
 /* w30 */
 .w30_loi_ich {
-  background-color: #F4F8FE;
+  background-color: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .w30_loi_ich .title_w30_loi_ich {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .w30_loi_ich .nut_mua_ngay {
-  background: linear-gradient(180deg, #ff6a00, #ee0979);
+  background: #66B011;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   padding: 8px 20px;
-}
-
-.w30_loi_ich .nut_mua_ngay:hover {
-  background: linear-gradient(180deg, #ee0979, #ff6a00);
+  border-radius: 8px;
 }
 
 /* end w30 */
@@ -5895,18 +5893,17 @@ a:hover {
 /* end w37 */
 /* w38 */
 .w38_section_list_tin_tuc_1 {
-  background-color: #F3E7E4;
+  background-color: #F3F3F3;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .w38_section_list_tin_tuc_1 .title {
-  color: #000;
+  color: #fff;
   font-weight: 700;
-  padding-bottom: 10px;
-  background: #fdaf05;
-  padding-top: 10px;
+  background: #007900;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .w38_section_list_tin_tuc_1 .text-center {
@@ -6438,11 +6435,11 @@ a:hover {
 /* end w47 */
 /* w48 */
 .w48 {
-  background-color: #b8e896;
+  background-color: #F3F3F3;
 }
 
 .w48_title {
-  color: #FE9700;
+  color: #007900;
   font-weight: 700;
   text-align: center;
   font-size: 30px;
@@ -7846,7 +7843,7 @@ a:hover {
 }
 
 .w68_title {
-  color: #e34a1e;
+  color: #007900;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -9226,8 +9223,9 @@ a:hover {
 /* end w83 */
 /* w84 */
 .w84 {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
+  background: #F3F3F3;
 }
 
 .w84-qua-tet {
@@ -9239,7 +9237,7 @@ a:hover {
 .w84_title {
   font-size: 16px;
   font-weight: 600;
-  color: #051F4D;
+  color: #007900;
 }
 
 .w84_list-1 {
@@ -9249,7 +9247,7 @@ a:hover {
 }
 
 .w84_list-1 li {
-  color: #051F4D;
+  color: #000;
   font-size: 15px;
   margin-top: 10px;
 }
