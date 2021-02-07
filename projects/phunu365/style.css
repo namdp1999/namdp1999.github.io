@@ -3523,7 +3523,7 @@ a:hover {
 /* end w25 */
 /* w26 */
 .w26_giang_vien {
-  background-color: #0C264B;
+  background-color: #A12371;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -14256,4 +14256,5 @@ a:hover {
 
 .button_dang_ky_ngay:hover {
   background: #A12371;
+  color: #fff;
 }
