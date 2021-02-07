@@ -141,7 +141,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid #1655c5;
+  border: 1px solid #E7377C;
   padding: 0 20px;
   font-size: 16px;
   line-height: 48px;
@@ -154,19 +154,19 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #1655c5;
+  background-color: #E7377C;
 }
 
 .main-btn:hover {
   background-color: #fff;
-  color: #1655c5;
-  border-color: #1655c5;
+  color: #A12371;
+  border-color: #A12371;
 }
 
 .main-btn.main-btn-2 {
   background-color: #fff;
-  color: #1655c5;
-  border-color: #1655c5;
+  color: #A12371;
+  border-color: #A12371;
 }
 
 .main-btn.main-btn-2:hover {
@@ -4625,7 +4625,7 @@ p {
 
 .intro-video-area .intro-video-bg {
   position: relative;
-  background: linear-gradient(90deg, #1341a9 0%, #1654c3 100%);
+  background: linear-gradient(90deg, #A12371 0%, #E7377C 100%);
   padding-top: 20px;
 }
 
@@ -10975,16 +10975,16 @@ p {
 #vina-01-menu a {
   display: block;
   font-size: 110%;
-  line-height: 42px;
+  line-height: 58px;
   padding: 0 10px;
   text-decoration: none;
-  color: #0157cd;
+  color: #A12371;
   font-weight: 600;
 }
 
 #vina-01-menu li a:hover {
   color: #ffffff;
-  background: #005bd1;
+  background: #A12371;
   border-radius: 60px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -11074,7 +11074,7 @@ p {
 }
 
 .vina-01-active {
-  background: #0157cd;
+  background: #E7377C;
   color: #fff !important;
   border-radius: 60px;
 }

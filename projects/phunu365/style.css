@@ -5710,7 +5710,7 @@ a:hover {
 }
 
 .w35_section_loi_ich .icon_i i {
-  background-color: #1C1091;
+  background-color: #A12371;
   color: #fff;
   font-size: 25px;
   padding: 10px;
@@ -13470,7 +13470,7 @@ a:hover {
   float: left;
   padding: 10px 15px;
   margin-bottom: 10px;
-  background: linear-gradient(180deg, #00c6fb, #005bea);
+  background: linear-gradient(180deg, #E7377C, #A12371);
 }
 
 .section_welcome .section_content .boxcontent .icon {
@@ -13582,7 +13582,7 @@ a:hover {
   }
 
   #SECTION1263>.ladi-section-background {
-    background-color: rgb(234, 242, 254);
+    background-color: #ffdae8;
   }
 
   .ladi-section .ladi-container {
@@ -13597,7 +13597,7 @@ a:hover {
 
   #HEADLINE1299>.ladi-headline {
     font-family: "Open Sans", sans-serif;
-    color: rgb(5, 31, 77);
+    color: #A12371;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -13633,7 +13633,7 @@ a:hover {
   }
 
   #BOX1277>.ladi-box {
-    background-color: rgb(10, 103, 233);
+    background-color: #E7377C;
   }
 
   #BOX1278 {
@@ -13644,9 +13644,9 @@ a:hover {
   }
 
   #BOX1278>.ladi-box {
-    background-color: rgb(234, 242, 254);
+    background-color: #FFDAE8;
     border-style: solid;
-    border-color: rgb(10, 103, 233);
+    border-color: #E7377C;
     border-width: 4px;
     border-radius: 1000px;
   }
@@ -13689,7 +13689,7 @@ a:hover {
   }
 
   #SHAPE1281 svg:last-child {
-    fill: rgba(10, 103, 233, 1.0);
+    fill: #E7377C;
   }
 
   #PARAGRAPH1282 {
@@ -14244,4 +14244,16 @@ a:hover {
   text-align: center;
   padding-bottom: 36px;
   padding-top: 20px;
+}
+
+.button_dang_ky_ngay {
+  background: #E7377C;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+
+.button_dang_ky_ngay:hover {
+  background: #A12371;
 }
