@@ -13694,3 +13694,7 @@ display: none;
 	padding: 8px 10px;
 	border-radius: 60px;
 }
+
+.icon-box-list .icon-box-list-items .icon-box-wrapter .icon .svg-icon {
+	max-width: 88px;
+}
