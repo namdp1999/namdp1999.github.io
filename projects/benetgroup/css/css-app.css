@@ -13646,3 +13646,12 @@ button[data-state=cancel-fullscreen] {
 a:hover {
   text-decoration: none;
 }
+
+div.section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0;
+  z-index: 3;
+}
