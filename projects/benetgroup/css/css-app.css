@@ -13637,3 +13637,12 @@ button[data-state=cancel-fullscreen] {
     height: 100vw;
   }
 }
+
+.container {
+  padding: 0;
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
