@@ -6075,7 +6075,7 @@ function ContentLoad() {
       $(".loadx").length || $("body").append('<div class="loadx" style="display:block"></div>');
       var e = $(".home-popup").attr("data-href");
       return $("html, body").addClass("no-scroll"), $(".overlay-dark").addClass("show"), popupLoad(e), !1
-    }, 500)), $("#about-page").length && ".rotate-container".length && rotateSlider(), $("#business-page").length, $("#project-details-page").length && ($(".scrollB").length && ScrollNiceB(), $(".pic-destination").length || $(".location-project").addClass("hide-ground"), $(".facilities-project .slide-member").length || $(".facilities-project").addClass("hide-ground"), $(".library-pro-pic, .item-project-pic, .pic-sample").on("click", function() {
+    }, 500)), $("#about-page").length && ".rotate-container".length && rotateSlider(), $("#home-page").length && ".rotate-container".length && rotateSlider(), $("#business-page").length, $("#project-details-page").length && ($(".scrollB").length && ScrollNiceB(), $(".pic-destination").length || $(".location-project").addClass("hide-ground"), $(".facilities-project .slide-member").length || $(".facilities-project").addClass("hide-ground"), $(".library-pro-pic, .item-project-pic, .pic-sample").on("click", function() {
       $(this).find("a").trigger("click")
     })), $("#news-page").length && ($(".slide-pagi .slide-item").length <= 1 && $(".slide-pagi").css({
       display: "none"
