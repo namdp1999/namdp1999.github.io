@@ -2642,7 +2642,7 @@ section {
   position: relative
 }
 
-.nav-click .close-click small, .nav-click .open-click {
+.nav-click .close-click small, .nav-click .close-click div, .nav-click .open-click {
   font-weight: 700;
   line-height: 35px;
   font-size: 12px;
@@ -2650,7 +2650,7 @@ section {
   text-transform: uppercase
 }
 
-.nav-click .close-click small {
+.nav-click .close-click small, .nav-click .close-click div {
   transform: rotate(-90deg);
   position: absolute;
   left: 8px;
@@ -2717,7 +2717,7 @@ section {
   pointer-events: none
 }
 
-.close-click small span, .open-click span {
+.close-click small span, .close-click div span, .open-click span {
   opacity: 0
 }
 

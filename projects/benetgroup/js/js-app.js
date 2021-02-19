@@ -4364,7 +4364,7 @@ function DrawLoad() {
 }
 
 function Done() {
-  ResizeWindows(), $(".box-img img").length && $(".box-img img").clipPath(), $(".go-top").removeClass("show"), $("#project-details-page, #search-page").length || $(".title-page > h1").lettering("words").children("span").lettering().children("span").lettering(), $(".open-click, .close-click small, .title-main h2, .title-pic h3").lettering(), 1100 < $(window).width() && $("#home-page, #about-page, #business-page, #sustainable-page, #library-page, #contact-page, #project-page").length && BoxSlide(), $(".container").stop().animate({
+  ResizeWindows(), $(".box-img img").length && $(".box-img img").clipPath(), $(".go-top").removeClass("show"), $("#project-details-page, #search-page").length || $(".title-page > h1").lettering("words").children("span").lettering().children("span").lettering(), $(".open-click, .close-click small, .close-click div, .title-main h2, .title-pic h3").lettering(), 1100 < $(window).width() && $("#home-page, #about-page, #business-page, #sustainable-page, #library-page, #contact-page, #project-page").length && BoxSlide(), $(".container").stop().animate({
     opacity: 1
   }, 300, "linear", function() {
     SlidePicture(), $(".loadicon").addClass("blur"), HideMask(), $(".loadicon").stop().animate({
