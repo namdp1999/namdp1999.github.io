@@ -11307,11 +11307,12 @@ p {
 }
 
 .about-team-area .team-item .team-content a {
-    background-color: #0160e7;
-    color: #fff;
-    padding: 5px 10px;
-    margin-top: 10px;
-    border-radius: 60px;
+    background-image: linear-gradient(to right, #0092D7 , #143F91);
+    color: #fff !important;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 18px -6px #000;
 }
 
 .w95_inner-iframe img {
