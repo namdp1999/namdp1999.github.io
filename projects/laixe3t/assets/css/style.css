@@ -2209,7 +2209,7 @@ img {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: rgb(36 168 142 / 0.15);
+    background: #0070ac26;
     text-align: center;
     border-radius: 50%;
     -webkit-transition: all 300ms ease;
@@ -2304,7 +2304,7 @@ img {
 }
 
 .links-widget ul li a:hover {
-    padding-left: 24px;
+    /* padding-left: 24px; */
 }
 
 .links-widget ul li a:after {
@@ -2323,6 +2323,7 @@ img {
 
 .links-widget ul li a:hover:after {
     opacity: 1;
+    display: none;
 }
 
 .contact-widget .contact-info {
@@ -2345,7 +2346,7 @@ img {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    background: rgb(36 168 142 / 0.15);
+    background: #0070ac26;
     text-align: center;
     border-radius: 50%;
     -webkit-transition: all 300ms ease;
@@ -3433,7 +3434,7 @@ img {
 }
 
 .process-block.active .content {
-    background-color: #24a78d;
+    background-color: #0070AC;
 }
 
 .process-block.active .content:before {
@@ -3472,7 +3473,7 @@ img {
 .cta-section h2 {
     position: relative;
     color: #fff;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 60px;
     margin-bottom: 50px;
@@ -3558,6 +3559,7 @@ img {
 .testimonial-block .thumb img {
     margin: 0 auto 20px;
     width: auto;
+    border-radius: 50%;
 }
 
 .testimonial-block h4 {
@@ -5158,7 +5160,7 @@ img {
 
 .mission-section .tab-area {
     position: relative;
-    padding-bottom: 190px;
+    padding-bottom: 80px;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -6882,4 +6884,30 @@ img {
 
 .theme-color-two .contact-widget .contact-info li .icon {
     background-color: #242424;
+}
+
+/* My CSS */
+.funfacts-section .icon img {
+  width: 50%;
+}
+
+.funfacts-section .hover-icon img {
+  width: 50%;
+}
+
+.driving-info-section .icon-box .icon img {
+  width: 70px;
+}
+
+@media (max-width: 768px) {
+  .mission-section .nav-tabs .nav-link h4 {
+    font-size: 18px;
+  }
+  .mission-section .content h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .driving-info-section .icon-box h4 {
+    font-size: 20px;
+  }
 }
