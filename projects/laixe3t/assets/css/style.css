@@ -6901,6 +6901,17 @@ img {
   height: 284px;
 }
 
+.my-btn-outline {
+  padding: 8px 20px;
+  color: #0070AC!important;
+  border: 2px solid #0070AC;
+}
+
+.my-btn-outline:hover {
+  background-color: #0070AC;
+  color: #fff!important;
+}
+
 @media (max-width: 768px) {
   .mission-section .nav-tabs .nav-link h4 {
     font-size: 18px;
