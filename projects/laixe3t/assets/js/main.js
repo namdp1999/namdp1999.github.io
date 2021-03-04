@@ -1,0 +1,19 @@
+var test = ``;
+
+document.write('<script src="assets/js/jquery.js"></script>');
+document.write('<script src="assets/js/popper.min.js"></script>');
+document.write('<script src="assets/js/bootstrap.min.js"></script>');
+document.write('<script src="assets/js/bootstrap-select.min.js"></script>');
+document.write('<script src="assets/js/jquery.fancybox.js"></script>');
+document.write('<script src="assets/js/isotope.js"></script>');
+document.write('<script src="assets/js/owl.js"></script>');
+document.write('<script src="assets/js/appear.js"></script>');
+document.write('<script src="assets/js/wow.js"></script>');
+document.write('<script src="assets/js/lazyload.js"></script>');
+document.write('<script src="assets/js/scrollbar.js"></script>');
+document.write('<script src="assets/js/TweenMax.min.js"></script>');
+document.write('<script src="assets/js/swiper.min.js"></script>');
+document.write('<script src="assets/js/jquery.polyglot.language.switcher.js"></script>');
+document.write('<script src="assets/js/jquery.ajaxchimp.min.js"></script>');
+document.write('<script src="assets/js/parallax-scroll.js"></script>');
+document.write('<script src="assets/js/script.js"></script>');
