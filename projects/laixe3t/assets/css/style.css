@@ -4036,6 +4036,7 @@ img {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .course-block-two h4 a {
@@ -6918,6 +6919,10 @@ img {
 
 .owl-theme .owl-dots .owl-dot span {
   display: none;
+}
+
+.main-header .header-upper .logo-box .logo img {
+  height: 60px;
 }
 
 @media (max-width: 768px) {
