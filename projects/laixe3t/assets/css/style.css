@@ -6835,7 +6835,7 @@ img {
 }
 
 .main-header .header-upper .logo-box .logo img {
-  height: 60px;
+  height: 60px!important;
 }
 
 @media (max-width: 768px) {
