@@ -3573,8 +3573,8 @@ img {
 }
 
 .brand-logo .single-logo img {
-  height: 100px;
-  width: auto;
+  height: 100px!important;
+  width: auto!important;
 }
 
 .brand-logo .single-logo {
