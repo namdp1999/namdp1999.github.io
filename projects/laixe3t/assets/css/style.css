@@ -2405,7 +2405,7 @@ img {
   position: relative;
   padding: 0 0 90px;
   margin-top: -25px;
-  z-index: 9;
+  z-index: 1;
 }
 
 .service-block-one {
@@ -3351,7 +3351,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  z-index: 9;
+  z-index: 1;
   background-color: #fff;
   margin: 0 auto;
   min-height: 320px;
@@ -3939,7 +3939,7 @@ img {
 }
 
 .course-block-two:nth-child(2) .inner-box {
-  z-index: 9;
+  z-index: 1;
   box-shadow: 0px 0px 48px 12px rgba(0, 0, 0, 0.05);
 }
 
