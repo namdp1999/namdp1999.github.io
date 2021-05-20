@@ -161,7 +161,7 @@ function imageScroll(c){
 		$mainContainer.fadeOut($transitionLength);
 		setTimeout(function () {
 			$mainContainer.html($imageBank[c]);
-			$thumbBank[c].addClass("w_selected");
+			// $thumbBank[c].addClass("w_selected");
 			autoScroll("left");
 			$mainContainer.fadeIn($transitionLength);
 		}, $transitionLength);
