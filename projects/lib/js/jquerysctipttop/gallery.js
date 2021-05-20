@@ -151,7 +151,7 @@ function generateThumbs(){
 function imageScroll(c){
 	if($go){
 
-		$thumbBank[c].removeClass("w_selected");
+		// $thumbBank[c].removeClass("w_selected");
 
 		c++
 
