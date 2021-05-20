@@ -60,10 +60,10 @@ function imageFocus(focus){
 	for(var i = 0; i < imageCount; i++){
 		if($imageBank[i].attr('src') == $(focus).attr('src')){
 			$mainContainer.fadeOut($transitionLength);
-			$thumbBank[currentImageIndex].removeClass("selected");
+			$thumbBank[currentImageIndex].removeClass("w_selected");
 			setTimeout(function () {
 				$mainContainer.html($imageBank[i]);
-				$thumbBank[i].addClass("selected");
+				$thumbBank[i].addClass("w_selected");
 				$mainContainer.fadeIn($transitionLength);
 			}, $transitionLength);
 			currentScrollIndex = i+1;
@@ -140,7 +140,7 @@ function generateThumbs(){
 		var $tempObj = $('<img id="'+i+'t" class="thumb" src="'+$imageBank[i].attr('src')+'" />');
 
 		if(i == 0)
-			$tempObj.addClass("selected");
+			$tempObj.addClass("w_selected");
 
 		$thumbContainer.append($tempObj);
 		$thumbBank.push($tempObj);
@@ -151,7 +151,7 @@ function generateThumbs(){
 function imageScroll(c){
 	if($go){
 
-		$thumbBank[c].removeClass("selected");
+		$thumbBank[c].removeClass("w_selected");
 
 		c++
 
@@ -161,7 +161,7 @@ function imageScroll(c){
 		$mainContainer.fadeOut($transitionLength);
 		setTimeout(function () {
 			$mainContainer.html($imageBank[c]);
-			$thumbBank[c].addClass("selected");
+			$thumbBank[c].addClass("w_selected");
 			autoScroll("left");
 			$mainContainer.fadeIn($transitionLength);
 		}, $transitionLength);

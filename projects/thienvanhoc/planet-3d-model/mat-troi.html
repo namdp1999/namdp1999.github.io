@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <title>Mặt Trời</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/getIEVersion.js"></script>
+  <script src='js/webcomponents-bundle.js'></script>
+  <script src='js/intersection-observer.js'></script>
+  <script src='js/ResizeObserver.js'></script>
+  <script src='js/fullscreen.polyfill.js'></script>
+</head>
+
+<body>
+
+  <div class='model-viewer-container'>
+    <model-viewer ar background-color='black' camera-controls camera-orbit='0deg 75deg 120%' controls exposure='1' id='mbmv' interaction-prompt-threshold='1000'
+      preload reveal='auto' shadow-intensity='1'
+      shadow-softness='0'
+	  src='https://namgd.com/projects/thienvanhoc/planet-3d-model/2352_Sun_1_1391000.glb'>
+      <div class="fullscreen" data-toggle-fullscreen=""></div>
+    </model-viewer>
+  </div>
+
+  <script src='https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer.js' type='module'></script>
+  <script nomodule src='js/model-viewer-legacy.js'></script>
+
+</body>
+
+</html>
