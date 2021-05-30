@@ -70,7 +70,7 @@ a:hover {
 .header__top__account ul li a {
   color: #fff;
   position: relative;
-  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 10px;
   font-size: 13px;
   font-weight: 500;
