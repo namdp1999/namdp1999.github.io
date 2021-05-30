@@ -725,7 +725,11 @@ a:hover {
 
 @media (max-width: 480px) {
   .flash-sale__title h2 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .flash-sale__view-more a {
+    font-size: 12px;
   }
 }
 
@@ -794,7 +798,7 @@ a:hover {
 
 @media (max-width: 480px) {
   .category__title h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -934,6 +938,7 @@ a:hover {
 .products__item__sold__rating i {
   color: #ddd;
   font-size: 12px;
+  margin-right: -4px;
 }
 
 .products__item__sold__rating i.active {
@@ -976,6 +981,16 @@ a:hover {
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .products__item__sold__rating i {
+    font-size: 10px;
+  }
+
+  .products__item__sold__count span {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .products__left {
     display: none;
@@ -990,7 +1005,11 @@ a:hover {
 
 @media (max-width: 480px) {
   .products__title h2 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .products__view-more a {
+    font-size: 12px;
   }
 }
 
@@ -1105,8 +1124,16 @@ a:hover {
     max-width: 50%;
   }
 
+  .products-heart__title img {
+    height: 16px;
+  }
+
   .products-heart__title h2 {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  .products-heart__view-more a {
+    font-size: 12px;
   }
 }
 
@@ -1167,6 +1194,12 @@ a:hover {
 
 .type-red {
   background-color: rgba(224, 32, 32, .2);
+}
+
+@media (max-width: 480px) {
+  .list-category-name h2 {
+    font-size: 16px;
+  }
 }
 
 /* end list-category-name */
@@ -1279,7 +1312,7 @@ a:hover {
 /* footer */
 .footer {
   background-color: #0871ce;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .footer__box {
@@ -1304,4 +1337,76 @@ a:hover {
   font-weight: 400;
 }
 
+.footer__box__list li {}
+
+.footer__box__list li p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.footer__box__list li strong {
+  font-weight: 700;
+  padding-bottom: 2px;
+  font-size: 14px;
+}
+
+.footer_box_button {
+  margin-bottom: 30px;
+}
+
+.footer_box_button a {
+  background-color: #4ABB71;
+  border: 1px solid #4ABB71;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: .375rem .75rem;
+  font-weight: 500;
+}
+
+.footer__box__app {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .footer__box__app {
+    display: inline-block;
+  }
+}
+
 /* end footer */
+/* copyright */
+.copyright {
+  background: #fff;
+  padding: 9px 0;
+}
+
+.copyright>.container>.row {
+  align-items: center;
+}
+
+.copyright__bct img {
+  height: 64px;
+}
+
+.copyright__info p {
+  font-size: 12px;
+  margin: 0;
+  text-align: right;
+  line-height: 16px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .copyright__bct {
+    text-align: center;
+  }
+
+  .copyright__info p {
+    text-align: center;
+  }
+}
+
+/* end copyright */
