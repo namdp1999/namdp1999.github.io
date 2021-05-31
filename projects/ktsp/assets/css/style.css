@@ -1410,3 +1410,92 @@ a:hover {
 }
 
 /* end copyright */
+/* modal popup */
+.modal-header {
+  display: block;
+  text-align: center;
+}
+
+.modal-desc {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.modal-popup .close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  color: #fff;
+  background: #616161;
+  padding: 0;
+  margin: 0;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.modal-popup label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal-popup__register {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.modal-popup__register::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.modal-popup__register::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+.modal-popup__register::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #007bff;
+  background-color: #007bff;
+}
+
+.modal-popup .modal-footer {
+  justify-content: center;
+}
+
+.modal-popup .modal-footer p {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.modal-popup input {
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fogot {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.fogot a {
+  color: #0871ce;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rules {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.text-red {
+  color: #e02020;
+}
+
+/* end modal popup */

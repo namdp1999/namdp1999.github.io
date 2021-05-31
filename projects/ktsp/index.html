@@ -35,8 +35,8 @@
           <div class="col-md-4">
             <div class="header__top__account">
               <ul>
-                <li><a href="#">Đăng Nhập</a></li>
-                <li><a href="#">Đăng Ký</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal-login">Đăng Nhập</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal-register">Đăng Ký</a></li>
               </ul>
             </div>
           </div>
@@ -44,6 +44,121 @@
       </div>
     </div>
     <!-- End header top -->
+
+    <!-- Modal login -->
+    <div class="modal fade modal-popup" id="modal-login" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG NHẬP</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username-label">Tên đăng nhập</label>
+                <input type="text" class="form-control" id="username-label" placeholder="Số điện thoại/Email">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="fogot">
+                <a href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-fogot">Quên mật khẩu?</a>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn chưa có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-register">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal login -->
+
+    <!-- Modal Fogot Password -->
+    <div class="modal fade modal-popup" id="modal-fogot" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">QUÊN MẬT KHẨU</h5>
+            <p class="modal-desc">Vui lòng nhập số điện thoại bạn đã đăng ký trên ktsp.vn</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="phone-label">Số điện thoại</label>
+                <input type="text" class="form-control" id="phone-label" placeholder="Số điện thoại của bạn">
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">LẤY LẠI MẬT KHẨU</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Fogot Password -->
+
+    <!-- Modal Register -->
+    <div class="modal fade modal-popup" id="modal-register" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG KÝ</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body modal-popup__register">
+            <form>
+              <div class="form-group">
+                <label for="name-label">Họ tên <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Họ và tên">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Email</label>
+                <input type="text" class="form-control" id="name-label" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Số điện thoại <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Số điện thoại">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Nhập lại mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Xác nhận mật khẩu">
+              </div>
+              <div class="rules">
+                Bằng việc đăng kí, bạn đã đồng ý với Ktsp.vn về <a href="#">Điều khoản dịch vụ</a> & <a href="#">chính sách bảo mật</a>.
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn đã có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-login">Đăng nhập</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Register -->
 
     <!-- Header bottom -->
     <div class="header__bottom">
