@@ -102,3 +102,20 @@ $(document).ready(function() {
     $('.header__bottom__ovelay').removeClass('active');
   });
 });
+
+// View more
+function viewMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("viewMore");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Xem thêm";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Rút gọn";
+    moreText.style.display = "inline";
+  }
+}
