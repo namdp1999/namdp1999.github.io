@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>ktsp.vn</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="font-awesome.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- page cart -->
+  <div class="page-cart">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-cart--main">
+            <div class="page-cart__product-buy">
+              <label class="page-cart__product-buy__title">GIỎ HÀNG</label>
+              <span class="page-cart__product-buy__count">(2)</span>
+            </div>
+            <div class="page-cart__main">
+              <!-- Danh sách các sản phẩm trong giỏ hàng -->
+              <div class="page-cart__inner">
+                <ul class="page-cart__inner__products">
+                  <!-- Item -->
+                  <li class="page-cart__inner__product">
+                    <div class="page-cart__inner__product__shop">
+                      <a href="#">
+                        <img src="assets/images/avatar_shop.jpg" alt="">
+                        <span>Thủy Dược liệu Tây bắc</span>
+                      </a>
+                    </div>
+                    <div class="page-cart__inner__product__item">
+                      <div class="page-cart__inner__product__item__img">
+                        <img src="assets/images/product-detail/1.jpg" alt="">
+                      </div>
+                      <div class="page-cart__inner__product__item__content">
+                        <div class="page-cart__inner__product__item__name">
+                          <p>500gr bột cacao nguyên chất</p>
+                          <span class="product__delete">Xóa</span>
+                        </div>
+                        <div class="page-cart__inner__product__item__price">
+                          <div class="page-cart__inner__product__item__price-new">
+                            160,000<sup>đ</sup>
+                          </div>
+                          <div class="page-cart__inner__product__item__price-old">
+                            <span class="discount-price">200,000<sup>đ</sup></span>
+                            <span class="seperate">|</span>
+                            <span class="discount-percent">20%</span>
+                          </div>
+                        </div>
+                        <div class="page-cart__inner__product__item__quantity">
+                          <div class="number-input">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><img src="assets/images/minus.png" alt="" /></button>
+                            <input class="quantity" min="1" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><img src="assets/images/plus.png" alt="" /></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Item -->
+                  <li class="page-cart__inner__product">
+                    <div class="page-cart__inner__product__shop">
+                      <a href="#">
+                        <img src="assets/images/avatar_shop.jpg" alt="">
+                        <span>Thủy Dược liệu Tây bắc</span>
+                      </a>
+                    </div>
+                    <div class="page-cart__inner__product__item">
+                      <div class="page-cart__inner__product__item__img">
+                        <img src="assets/images/product-detail/2.jpg" alt="">
+                      </div>
+                      <div class="page-cart__inner__product__item__content">
+                        <div class="page-cart__inner__product__item__name">
+                          <p>500gr bột cacao nguyên chất</p>
+                          <span class="product__delete">Xóa</span>
+                        </div>
+                        <div class="page-cart__inner__product__item__price">
+                          <div class="page-cart__inner__product__item__price-new">
+                            160,000<sup>đ</sup>
+                          </div>
+                          <div class="page-cart__inner__product__item__price-old">
+                            <span class="discount-price">200,000<sup>đ</sup></span>
+                            <span class="seperate">|</span>
+                            <span class="discount-percent">20%</span>
+                          </div>
+                        </div>
+                        <div class="page-cart__inner__product__item__quantity">
+                          <div class="number-input">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><img src="assets/images/minus.png" alt="" /></button>
+                            <input class="quantity" min="1" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><img src="assets/images/plus.png" alt="" /></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+              <!-- Hết Danh sách các sản phẩm trong giỏ hàng -->
+
+              <!-- Tổng chi phí -->
+              <div class="page-cart__total-prices">
+                <div class="cart-prices">
+                  <div class="prices">
+                    <div class="prices__items">
+                      <span class="prices__text">Tổng (2 sản phẩm)</span>
+                    </div>
+                    <div class="prices__total">
+                      <span>Tổng tiền hàng</span>
+                      <div class="prices__value--final">đ480,000</div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="cart__submit">Tiến hành đặt hàng</a>
+              </div>
+              <!-- Hết Tổng chi phí -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end page cart -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Fontawesome -->
+  <script src="assets/js/font-awesome.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- My JS -->
+  <script src="assets/js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
