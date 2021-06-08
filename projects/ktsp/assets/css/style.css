@@ -254,6 +254,7 @@ a:hover {
   text-align: right;
   margin-right: 6px;
   width: 14%;
+  display: none!important;
 }
 
 .header__cart a {
@@ -1951,6 +1952,7 @@ a:hover {
 .product-detail__button {
   display: flex;
   align-items: center;
+  display: none!important;
 }
 
 .add-to-cart {
@@ -2025,6 +2027,7 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
+  display: none!important;
 }
 
 .product-detail__shop-info__left {
