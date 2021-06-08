@@ -17,6 +17,321 @@
 
 <body>
 
+  <!-- Header -->
+  <div class="header">
+    <!-- Header top -->
+    <div class="header__top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="header__top__info">
+              <ul>
+                <li><a href="#">Kênh Người Bán</a></li>
+                <li><a href="#">Tải ứng dụng</a></li>
+                <li><a href="mailto:info@ktsp.vn">info@ktsp.vn</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="header__top__account">
+              <ul>
+                <li><a href="#" data-toggle="modal" data-target="#modal-login">Đăng Nhập</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal-register">Đăng Ký</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End header top -->
+
+    <!-- Modal login -->
+    <div class="modal fade modal-popup" id="modal-login" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG NHẬP</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username-label">Tên đăng nhập</label>
+                <input type="text" class="form-control" id="username-label" placeholder="Số điện thoại/Email">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="fogot">
+                <a href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-fogot">Quên mật khẩu?</a>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn chưa có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-register">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal login -->
+
+    <!-- Modal Fogot Password -->
+    <div class="modal fade modal-popup" id="modal-fogot" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">QUÊN MẬT KHẨU</h5>
+            <p class="modal-desc">Vui lòng nhập số điện thoại bạn đã đăng ký trên ktsp.vn</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="phone-label">Số điện thoại</label>
+                <input type="text" class="form-control" id="phone-label" placeholder="Số điện thoại của bạn">
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">LẤY LẠI MẬT KHẨU</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Fogot Password -->
+
+    <!-- Modal Register -->
+    <div class="modal fade modal-popup" id="modal-register" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG KÝ</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body modal-popup__register">
+            <form>
+              <div class="form-group">
+                <label for="name-label">Họ tên <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Họ và tên">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Email</label>
+                <input type="text" class="form-control" id="name-label" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Số điện thoại <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Số điện thoại">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Nhập lại mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Xác nhận mật khẩu">
+              </div>
+              <div class="rules">
+                Bằng việc đăng kí, bạn đã đồng ý với Ktsp.vn về <a href="#">Điều khoản dịch vụ</a> & <a href="#">chính sách bảo mật</a>.
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn đã có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-login">Đăng nhập</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Register -->
+
+    <!-- Header bottom -->
+    <div class="header__bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header__bottom--main">
+              <div id="header__menu" class="header__menu-mobile">
+                <span href="/"><i class="fas fa-bars"></i></span>
+                <div class="header__menu-mobile__expand">
+                  <ul class="header__menu-mobile__list">
+                    <li class="header__menu-mobile__item">
+                      <a href="#" class="header__menu-mobile__item__avatar">
+                        <img src="assets/images/avatar_default.png">
+                        <div class="header__menu-mobile__item__avatar__content">
+                          <label>Đăng nhập</label>
+                          <div style="font-size: 10px">Nhận nhiều ưu đãi hơn</div>
+                        </div>
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__bottom__ovelay"></div>
+              <div class="header__logo">
+                <a href="#">
+                  <img src="assets/images/logo.png" alt="">
+                </a>
+              </div>
+              <div class="header__search--main">
+                <div class="header__search">
+                  <input type="search" id="form1" class="header__search__input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu" />
+                  <button type="button" class="header__search__button">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+                <div class="header__tag">
+                  <ul>
+                    <li><a href="#">Lock&lock</a></li>
+                    <li><a href="#">Trái cây chính vụ</a></li>
+                    <li><a href="#">Nông sản</a></li>
+                    <li><a href="#">Đồ gia dụng</a></li>
+                    <li><a href="#">Mỹ phẩm</a></li>
+                    <li><a href="#">Đồ điện tử</a></li>
+                    <li><a href="#">Thời trang nam/nữ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__cart">
+                <a href="#">
+                  <img src="assets/images/cart-icon.svg" class="header__cart__icon">
+                  <span class="header__cart__total">2</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header bottom -->
+
+    <!-- Header Menu -->
+    <div class="header__menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header__menu__list">
+              <!-- Menu ngang -->
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM <i class="fa fa-angle-down"></i>
+                  </a>
+                  <!-- Menu cấp 1 -->
+                  <div class="header__menu__list__sub">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/san-dac-san.png" alt="">
+                          Sàn đặc sản
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <!-- Menu cấp 2 -->
+                        <div class="header__menu__list__sub-2">
+                          <ul>
+                            <li><a href="#">Đặc sản miền Bắc</a></li>
+                            <li><a href="#">Đặc sản miền Trung</a></li>
+                            <li><a href="#">Đặc sản miền Tây</a></li>
+                            <li><a href="#">Đặc sản Nam Bộ</a></li>
+                            <li><a href="#">Đặc sản Tây Nguyên</a></li>
+                            <li><a href="#">Đặc sản trái cây</a></li>
+                          </ul>
+                        </div>
+                        <!-- Hết menu cấp 2 -->
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/bach-hoa.png" alt="">
+                          Bách hóa
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/thiet-bi-dien-tu.png" alt="">
+                          Thiết bị điện tử
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Hết menu cấp 1 -->
+                </li>
+                <li><a href="#">HÀNG TIÊU DÙNG</a></li>
+                <li><a href="#">DƯỢC – MỸ PHẨM</a></li>
+                <li><a href="#">NÔNG SẢN</a></li>
+                <li><a href="#">THỰC PHẨM CHẾ BIẾN</a></li>
+                <li><a href="#">CƠ KHÍ – XÂY DỰNG</a></li>
+                <li><a href="#">ĐIỆN – ĐIỆN TỬ</a></li>
+              </ul>
+              <!-- Hết menu ngang -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Menu -->
+  </div>
+  <!-- End Header -->
+
   <!-- page cart -->
   <div class="page-cart">
     <div class="container">
@@ -134,7 +449,140 @@
   </div>
   <!-- end page cart -->
 
+  <!-- new-letter -->
+  <div class="new-letter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="new-letter__box">
+            <div class="new-letter__logo">
+              <a href="#">
+                <img src="assets/images/logo_ft.png" alt="">
+              </a>
+            </div>
+            <div class="new-letter__form">
+              <div class="new-letter__form__left">
+                <div class="new-letter__form__text">Bạn đã sẵn sàng để nhận ưu đãi dành riêng cho khách hàng mới từ Ktsp.vn?</div>
+              </div>
+              <div class="new-letter__form__right">
+                <div class="new-letter__form__box">
+                  <input type="text" class="new-letter__form__input" placeholder="Nhập email của bạn tại đây...">
+                  <input type="submit" class="new-letter__form__button" value="Đăng ký">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end new-letter -->
 
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">VỀ CHÚNG TÔI</div>
+            <ul class="footer__box__list">
+              <li><a href="#">Giới thiệu về Viettel</a></li>
+              <li><a href="#">Giới thiệu về Ktsp.vn</a></li>
+              <li><a href="#">Cơ hội hợp tác</a></li>
+              <li><a href="#">Quy chế hoạt động</a></li>
+              <li><a href="#">Quy định đóng gói hàng hóa</a></li>
+              <li><a href="#">Quy định hàng hóa cấm gửi</a></li>
+              <li><a href="#">Điều khoản sử dụng</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">CHỦ ĐỀ HỖ TRỢ</div>
+            <ul class="footer__box__list">
+              <li><a href="#">Hướng dẫn đặt hàng</a></li>
+              <li><a href="#">Bán hàng cùng Ktsp.vn</a></li>
+              <li><a href="#">Quy trình mua bán</a></li>
+              <li><a href="#">Giải quyết khiếu nại</a></li>
+              <li><a href="#">Chính sách đổi trả hàng</a></li>
+              <li><a href="#">Chính sách thanh toán</a></li>
+              <li><a href="#">Chính sách vận chuyển</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">KẾT NỐI VỚI CHÚNG TÔI</div>
+            <ul class="footer__box__list">
+              <li>
+                <p>
+                  <strong>Địa chỉ<br></strong>
+                  Số 30 Trung Liệt, Quận Đống Đa - TP. Hà Nội
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Hotline<br></strong>
+                  076.246.1166
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Email<br></strong>
+                  <a href="#">info@ktsp.vn</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">MẪU HỢP ĐỒNG CHO NHÀ CUNG CẤP</div>
+            <div class="footer_box_button">
+              <a href="#" target="_blank">
+                <i class="fa fa-download"></i>
+                Tải file về
+              </a>
+            </div>
+            <div class="footer__title">TẢI APP KTSP.VN</div>
+            <div class="footer__box__app">
+              <a href="#" target="_blank">
+                <img src="assets/images/icon_apple-store.png" alt="">
+              </a>
+            </div>
+            <div class="footer__box__app">
+              <a href="#" target="_blank">
+                <img src="assets/images/icon_chplay.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="copyright__bct">
+            <a href="#" target="_blank">
+              <img src="assets/images/bct.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="copyright__info">
+            <p>
+              Mã số doanh nghiệp: 0107603000 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 19/10/2016.
+              <br /> Trụ sở chính: Số 30 Trung Liệt, Quận Đống Đa, Hà Nội, Việt Nam.
+              <br /> © 2019 Bản quyền thuộc Công ty cổ phần công nghệ và khoa học Bảo An
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
