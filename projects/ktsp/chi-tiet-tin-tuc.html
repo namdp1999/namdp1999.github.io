@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>ktsp.vn</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="font-awesome.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <!-- Header top -->
+    <div class="header__top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="header__top__info">
+              <ul>
+                <li><a href="#">Kênh Người Bán</a></li>
+                <li><a href="#">Tải ứng dụng</a></li>
+                <li><a href="mailto:info@ktsp.vn">info@ktsp.vn</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="header__top__account">
+              <ul>
+                <li><a href="#" data-toggle="modal" data-target="#modal-login">Đăng Nhập</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal-register">Đăng Ký</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End header top -->
+
+    <!-- Modal login -->
+    <div class="modal fade modal-popup" id="modal-login" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG NHẬP</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username-label">Tên đăng nhập</label>
+                <input type="text" class="form-control" id="username-label" placeholder="Số điện thoại/Email">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="fogot">
+                <a href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-fogot">Quên mật khẩu?</a>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn chưa có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-register">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal login -->
+
+    <!-- Modal Fogot Password -->
+    <div class="modal fade modal-popup" id="modal-fogot" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">QUÊN MẬT KHẨU</h5>
+            <p class="modal-desc">Vui lòng nhập số điện thoại bạn đã đăng ký trên ktsp.vn</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="phone-label">Số điện thoại</label>
+                <input type="text" class="form-control" id="phone-label" placeholder="Số điện thoại của bạn">
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">LẤY LẠI MẬT KHẨU</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Fogot Password -->
+
+    <!-- Modal Register -->
+    <div class="modal fade modal-popup" id="modal-register" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ĐĂNG KÝ</h5>
+            <p class="modal-desc">Dễ dàng truy cập lịch sử đơn hàng, lưu sản phẩm yêu thích, xem giỏ hàng, nhận ưu đãi và nhiều hơn nữa.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body modal-popup__register">
+            <form>
+              <div class="form-group">
+                <label for="name-label">Họ tên <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Họ và tên">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Email</label>
+                <input type="text" class="form-control" id="name-label" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="name-label">Số điện thoại <span class="text-red">(*)</span></label>
+                <input type="text" class="form-control" id="name-label" placeholder="Số điện thoại">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Nhập mật khẩu">
+              </div>
+              <div class="form-group">
+                <label for="password-label">Nhập lại mật khẩu <span class="text-red">(*)</span></label>
+                <input type="password" class="form-control" id="password-label" placeholder="Xác nhận mật khẩu">
+              </div>
+              <div class="rules">
+                Bằng việc đăng kí, bạn đã đồng ý với Ktsp.vn về <a href="#">Điều khoản dịch vụ</a> & <a href="#">chính sách bảo mật</a>.
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p>Bạn đã có tài khoản tại ktsp.vn?</p>
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modal-login">Đăng nhập</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Register -->
+
+    <!-- Header bottom -->
+    <div class="header__bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header__bottom--main">
+              <div id="header__menu" class="header__menu-mobile">
+                <span href="/"><i class="fas fa-bars"></i></span>
+                <div class="header__menu-mobile__expand">
+                  <ul class="header__menu-mobile__list">
+                    <li class="header__menu-mobile__item">
+                      <a href="#" class="header__menu-mobile__item__avatar">
+                        <img src="assets/images/avatar_default.png">
+                        <div class="header__menu-mobile__item__avatar__content">
+                          <label>Đăng nhập</label>
+                          <div style="font-size: 10px">Nhận nhiều ưu đãi hơn</div>
+                        </div>
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__bottom__ovelay"></div>
+              <div class="header__logo">
+                <a href="#">
+                  <img src="assets/images/logo.png" alt="">
+                </a>
+              </div>
+              <div class="header__search--main">
+                <div class="header__search">
+                  <input type="search" id="form1" class="header__search__input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu" />
+                  <button type="button" class="header__search__button">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+                <div class="header__tag">
+                  <ul>
+                    <li><a href="#">Lock&lock</a></li>
+                    <li><a href="#">Trái cây chính vụ</a></li>
+                    <li><a href="#">Nông sản</a></li>
+                    <li><a href="#">Đồ gia dụng</a></li>
+                    <li><a href="#">Mỹ phẩm</a></li>
+                    <li><a href="#">Đồ điện tử</a></li>
+                    <li><a href="#">Thời trang nam/nữ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__cart">
+                <a href="#">
+                  <img src="assets/images/cart-icon.svg" class="header__cart__icon">
+                  <span class="header__cart__total">2</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header bottom -->
+
+    <!-- Header Menu -->
+    <div class="header__menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header__menu__list">
+              <!-- Menu ngang -->
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM <i class="fa fa-angle-down"></i>
+                  </a>
+                  <!-- Menu cấp 1 -->
+                  <div class="header__menu__list__sub">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/san-dac-san.png" alt="">
+                          Sàn đặc sản
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <!-- Menu cấp 2 -->
+                        <div class="header__menu__list__sub-2">
+                          <ul>
+                            <li><a href="#">Đặc sản miền Bắc</a></li>
+                            <li><a href="#">Đặc sản miền Trung</a></li>
+                            <li><a href="#">Đặc sản miền Tây</a></li>
+                            <li><a href="#">Đặc sản Nam Bộ</a></li>
+                            <li><a href="#">Đặc sản Tây Nguyên</a></li>
+                            <li><a href="#">Đặc sản trái cây</a></li>
+                          </ul>
+                        </div>
+                        <!-- Hết menu cấp 2 -->
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/bach-hoa.png" alt="">
+                          Bách hóa
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/thiet-bi-dien-tu.png" alt="">
+                          Thiết bị điện tử
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img class="header__menu__list__sub--icon" src="assets/images/icon-menu/me-va-be.png" alt="">
+                          Mẹ & Bé
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Hết menu cấp 1 -->
+                </li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="#">KHUYẾN MẠI</a></li>
+                <li><a href="#">DÀNH CHO NGƯỜI BÁN</a></li>
+                <li><a href="#">DÀNH CHO NGƯỜI MUA</a></li>
+                <li><a href="#">HỖ TRỢ</a></li>
+              </ul>
+              <!-- Hết menu ngang -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Menu -->
+  </div>
+  <!-- End Header -->
+
+  <!-- breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="breadcrumb__list">
+            <li><a href="/">Trang chủ</a></li>
+            <li><a href="#">Kinh doanh</a></li>
+            <li><a href="#">Tài chính - Đầu tư</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end breadcrumb -->
+
+  <!-- page news -->
+  <div class="page-news">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-news--box">
+            <div class="page-news__left">
+
+              <div class="page-news__detail">
+                <div class="page-news__detail__time">
+                  Thứ bảy, 12/06/2021 - 08:17
+                </div>
+                <h1 class="page-news__detail__title">
+                  Giá vàng lao dốc, dồn dập mua vào
+                </h1>
+                <div class="page-news__detail--box">
+                  <div class="page-news__detail__social">
+                    <ul>
+                      <li>
+                        <a href="#" class="page-news__detail__social__facebook" title="Chia sẻ lên Facebook" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="page-news__detail__social__zalo" title="Chia sẻ lên Zalo" target="_blank">
+                          <img class="icon-zalo" src="assets/images/icon-zalo.png" alt="">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="In bài viết" target="_blank">
+                          <i class="fa fa-print"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="page-news__detail__social__link" title="Copy link bài viết" target="_blank">
+                          <i class="fa fa-link"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="page-news__detail__body">
+                    <div class="limit-start"></div>
+                    <h2 class="page-news__detail__body__desc">
+                      Giá vàng lao dốc từ mức trên 1.900 USD/ounce khi đồng USD phục hồi trở lại. Các nhà đầu tư tổ chức đang gom lại vàng phòng ngừa rủi ro. Trong nước, giá vàng tại Hà Nội và TPHCM diễn biến trái chiều.
+                    </h2>
+                    <div class="page-news__detail__body__content">
+                      <p>Phiên giao dịch sáng nay (12/6), giá vàng SJC tại Hà Nội niêm yết tại 56,85 - 57,4 triệu đồng/lượng (mua vào - bán ra), không thay đổi so với chốt phiên 11/6.</p>
+                      <p>Tuy nhiên tại TPHCM, giá vàng SJC giảm mỗi chiều 200.000 đồng/lượng, xuống còn 56,7 - 57,3 triệu đồng/lượng.</p>
+                      <p>Trên thế giới, giá vàng giao ngay tại châu Á qua niêm yết của Kitco.com hiện ở mức gần 1.878 USD/ounce. Hôm qua, giá vàng đã vượt ngưỡng 1.900 USD/ounce.</p>
+                      <img src="assets/images/news/news-1.jpeg" alt="">
+                      <figcaption>
+                        <p>Giá vàng sụt giảm, nhà đầu tư nhỏ lẻ cần thận trọng khi bỏ vốn vào vàng (Ảnh minh họa).</p>
+                      </figcaption>
+                      <p>Giá vàng giảm mạnh khi đồng USD phục hồi trở lại. Lợi suất của trái phiếu Kho bạc Mỹ cũng giảm xuống mức thấp nhất trong ba tháng, làm giảm chi phí cơ hội của việc nắm giữ vàng - vốn là tài sản không sinh lời.</p>
+                      <p>SPDR tiếp tục mua vào vàng, cho thấy nhà đầu tư tổ chức đang gom lại vàng phòng ngừa những rủi ro liên quan tới lạm phát và điều chỉnh trên thị trường chứng khoán. Cụ thể, SPDR tiếp tục mua thêm 1,45 tấn vàng sau khi mua mạnh
+                        5,83 tấn trong ngày thứ 4. Hiện lượng vàng nắm giữ của quỹ ở mức gần 1.045 tấn.</p>
+                      <p>Dữ liệu mới của Mỹ được công bố đã ủng hộ mạnh mẽ xu hướng tăng của vàng do lạm phát gia tăng với chỉ số giá tiêu dùng (CPI) tháng 5 tăng 0,6%, cao hơn so với mức dự tính 0,5%.</p>
+                      <p>So với cùng kỳ năm trước, chỉ số này tăng 5%, cao hơn mức tăng 4,7% trong tháng 4. Đây là mức tăng cao nhất kể từ năm 2008.</p>
+                      <p>Khảo sát thị trường vàng hàng tuần mới nhất của Kitco News cho thấy, thị trường lại đang điều chỉnh một lần nữa. Giao dịch đang diễn ra trong "một con đường hẹp", khiến các nhà phân tích phố Wall cũng khó định hướng được
+                        hướng đi rõ ràng của vàng trong ngắn hạn.</p>
+                      <p>Các nhà phân tích lưu ý rằng, thị trường vàng hiện đang được hỗ trợ khá vững chắc khi áp lực lạm phát tiếp tục gia tăng. Tuy nhiên, triển vọng kỹ thuật của kim loại quý có vẻ sẽ giảm do giá đã không thể giữ mức tăng trên
+                        1.900 USD/ounce.</p>
+                      <p>Ông Jeffrey Halley, nhà phân tích thị trường cấp cao tại công ty môi giới tài chính OANDA, cho biết tình hình lạm phát gia tăng của Mỹ đã không thể gây ra đợt bán tháo trên thị trường.</p>
+                    </div>
+                    <div class="page-news__detail__body__flex">
+                      <div class="page-news__detail__body__like-facebook">
+                        <a href="#" title="Thích bài viết">
+                          <i class="fa fa-thumbs-o-up"></i> 15 <span>Lượt thích</span>
+                        </a>
+                      </div>
+                      <div class="page-news__detail__body__author">
+                        <p>An Hạ</p>
+                      </div>
+                    </div>
+
+                    <!-- Tin liên quan -->
+                    <div class="page-news__detail__body__related">
+                      <h2 class="page-news__detail__body__related__title">
+                        Tin liên quan
+                      </h2>
+                      <div class="page-news__detail__body__related__links">
+                        <h3 class="page-news__detail__body__related__links--item">
+                          <a href="#" title="">Đảo chiều, giá vàng tăng mạnh</a>
+                        </h3>
+                        <h3 class="page-news__detail__body__related__links--item">
+                          <a href="#" title="">Giá vàng tăng, USD suy yếu</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <!-- Hết tin liên quan -->
+
+                    <!-- Tags -->
+                    <div class="page-news__detail__body__tags">
+                      <div class="page-news__detail__body__tags__label">Từ khóa:</div>
+                      <ul class="page-news__detail__body__tags__list">
+                        <li>
+                          <h4><a href="#">giá vàng</a></h4>
+                        </li>
+                        <li>
+                          <h4><a href="#">giá vàng SJC</a></h4>
+                        </li>
+                        <li>
+                          <h4><a href="#">giá vàng hôm nay</a></h4>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- End Tags -->
+
+                    <!-- Có thể bạn quan tâm -->
+                    <div class="page-news__detail__body__care__title">
+                      <h2>Có thể bạn quan tâm</h2>
+                    </div>
+                    <div class="page-news__top-3">
+                      <div class="page-news__top-3__item">
+                        <a href="#">
+                          <div class="page-news__top-3__item__box">
+                            <img src="assets/images/news/news-2.jpg" alt="">
+                            <h3>Thêm một đại gia Việt sở hữu tài sản tỷ USD trên sàn chứng khoán</h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="page-news__top-3__item">
+                        <a href="#">
+                          <div class="page-news__top-3__item__box">
+                            <img src="assets/images/news/news-3.jpeg" alt="">
+                            <h3>Lãi suất huy động bước vào cuộc đua tăng mới?</h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="page-news__top-3__item">
+                        <a href="#">
+                          <div class="page-news__top-3__item__box">
+                            <img src="assets/images/news/news-4.png" alt="">
+                            <h3>Những "cú đấm thép" tỷ USD là đầu tàu kinh tế Việt Nam</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Hết Có thể bạn quan tâm -->
+
+                    <!-- Bình luận -->
+                    <div class="page-news__detail__body__comment">
+                      <div class="page-news__detail__body__comment__bar">
+                        <div class="page-news__detail__body__comment__bar__left">
+                          <img src="assets/images/logo_thumb.png" alt="">
+                        </div>
+                        <div class="page-news__detail__body__comment__bar__right">
+                          <a href="#">Đăng nhập</a>
+                          |
+                          <a href="#">Đăng ký</a>
+                          <a href="#" title="Giúp đỡ"><i class="fa fa-question-circle-o"></i></a>
+                        </div>
+                      </div>
+                      <div class="page-news__detail__body__comment__form">
+                        <form class="" action="" method="">
+                          <textarea placeholder="Nội dung bình luận"></textarea>
+                          <div class="page-news__detail__body__comment__form_button">
+                            <a>Gửi bình luận</a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- Hết Bình luận -->
+
+                    <div class="limit-end"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="page-news__right">
+              <div class="page-news__qc">
+                <a href="#">
+                  <img src="assets/images/news/banner-qc-1.jpg" />
+                </a>
+              </div>
+              <div class="page-news__qc">
+                <a href="#">
+                  <img src="assets/images/news/banner-qc-2.jpg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-news-full">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-news-full--box">
+            <div class="page-news-full__title">
+              <h2>Đọc nhiều nhất chuyên mục</h2>
+            </div>
+            <div class="page-news-full__qc">
+              <a href="#">
+                <img src="assets/images/news/qc-3.jpg" alt="">
+              </a>
+            </div>
+            <div class="page-news-full__list">
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-1.jpeg" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-2.jpg" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-3.jpeg" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-4.png" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-5.jpeg" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="page-news-full__list__item">
+                <a href="#">
+                  <div class="page-news-full__list__item__box">
+                    <img src="assets/images/news/news-6.jpg" alt="">
+                    <h3>Giá vàng sụt giảm, nhà đầu tư bán ra cả tấn</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end page news -->
+
+  <!-- new-letter -->
+  <div class="new-letter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="new-letter__box">
+            <div class="new-letter__logo">
+              <a href="#">
+                <img src="assets/images/logo_ft.png" alt="">
+              </a>
+            </div>
+            <div class="new-letter__form">
+              <div class="new-letter__form__left">
+                <div class="new-letter__form__text">Bạn đã sẵn sàng để nhận ưu đãi dành riêng cho khách hàng mới từ Ktsp.vn?</div>
+              </div>
+              <div class="new-letter__form__right">
+                <div class="new-letter__form__box">
+                  <input type="text" class="new-letter__form__input" placeholder="Nhập email của bạn tại đây...">
+                  <input type="submit" class="new-letter__form__button" value="Đăng ký">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end new-letter -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">VỀ CHÚNG TÔI</div>
+            <ul class="footer__box__list">
+              <li><a href="#">Giới thiệu về Viettel</a></li>
+              <li><a href="#">Giới thiệu về Ktsp.vn</a></li>
+              <li><a href="#">Cơ hội hợp tác</a></li>
+              <li><a href="#">Quy chế hoạt động</a></li>
+              <li><a href="#">Quy định đóng gói hàng hóa</a></li>
+              <li><a href="#">Quy định hàng hóa cấm gửi</a></li>
+              <li><a href="#">Điều khoản sử dụng</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">CHỦ ĐỀ HỖ TRỢ</div>
+            <ul class="footer__box__list">
+              <li><a href="#">Hướng dẫn đặt hàng</a></li>
+              <li><a href="#">Bán hàng cùng Ktsp.vn</a></li>
+              <li><a href="#">Quy trình mua bán</a></li>
+              <li><a href="#">Giải quyết khiếu nại</a></li>
+              <li><a href="#">Chính sách đổi trả hàng</a></li>
+              <li><a href="#">Chính sách thanh toán</a></li>
+              <li><a href="#">Chính sách vận chuyển</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">KẾT NỐI VỚI CHÚNG TÔI</div>
+            <ul class="footer__box__list">
+              <li>
+                <p>
+                  <strong>Địa chỉ<br></strong>
+                  Số 30 Trung Liệt, Quận Đống Đa - TP. Hà Nội
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Hotline<br></strong>
+                  076.246.1166
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Email<br></strong>
+                  <a href="#">info@ktsp.vn</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer__box">
+            <div class="footer__title">MẪU HỢP ĐỒNG CHO NHÀ CUNG CẤP</div>
+            <div class="footer_box_button">
+              <a href="#" target="_blank">
+                <i class="fa fa-download"></i>
+                Tải file về
+              </a>
+            </div>
+            <div class="footer__title">TẢI APP KTSP.VN</div>
+            <div class="footer__box__app">
+              <a href="#" target="_blank">
+                <img src="assets/images/icon_apple-store.png" alt="">
+              </a>
+            </div>
+            <div class="footer__box__app">
+              <a href="#" target="_blank">
+                <img src="assets/images/icon_chplay.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="copyright__bct">
+            <a href="#" target="_blank">
+              <img src="assets/images/bct.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="copyright__info">
+            <p>
+              Mã số doanh nghiệp: 0107603000 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 19/10/2016.
+              <br /> Trụ sở chính: Số 30 Trung Liệt, Quận Đống Đa, Hà Nội, Việt Nam.
+              <br /> © 2019 Bản quyền thuộc Công ty cổ phần công nghệ và khoa học Bảo An
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Fontawesome -->
+  <script src="assets/js/font-awesome.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- My JS -->
+  <script src="assets/js/script.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    // Fixed social page news detail
+    function sticky_relocate_2() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('.page-news__detail__body').offset().top - 100;
+      if (window_top > div_top) {
+        $('.page-news__detail__social').addClass('sticky')
+      }
+      //if window top reaches the limit removed class
+      if (window_top < $('.limit-start').position().top + 200) {
+        $('.page-news__detail__social').removeClass('sticky');
+      }
+      if (window_top > $('.limit-end').position().top - 40) {
+        $('.page-news__detail__social').removeClass('sticky');
+      }
+    }
+
+    $(window).scroll(sticky_relocate_2);
+  </script>
+</body>
+
+</html>
