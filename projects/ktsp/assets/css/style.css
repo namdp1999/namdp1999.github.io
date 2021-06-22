@@ -13,6 +13,15 @@ a:hover {
   display: none;
 }
 
+/* custom bootstrap */
+@media (max-width: 480px) {
+  .col-md-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* end custom bootstrap */
 /*
  Cloud Zoom CSS. (c)2012-2015 Star Plugins.
 */
@@ -406,13 +415,14 @@ a:hover {
 }
 
 .header__menu-mobile__expand {
-  width: 250px;
+  width: 288px;
   border-right: 1px solid #ddd;
   background: #fff;
   position: fixed;
   top: 0;
   bottom: 0;
   left: -250px;
+  padding-bottom: 50px;
   z-index: 200;
   overflow: auto;
   -webkit-transition: all .2s ease;
@@ -430,6 +440,46 @@ a:hover {
 
 .header__menu-mobile__item {
   list-style: none;
+}
+
+.header__menu-mobile__item--two a {
+  padding: 12px 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #333333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header__menu-mobile__item--two a svg {
+  margin: 0px 32px 0px 0px;
+  color: #757575;
+}
+
+.header__menu-mobile__item--two .hot-line strong {
+  margin: 0px 4px;
+  color: #26bc4e;
+  font-weight: 500;
+}
+
+.header__menu-mobile__item--two a.support {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.header__menu-mobile__item--two a.support svg {
+  margin: 0px;
+}
+
+.header__menu-mobile__sub-head {
+  color: #787878;
+  padding: 12px 16px 0px;
+  border-top: 1px solid #f2f2f2;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .header__menu-mobile__item__avatar {
@@ -3160,6 +3210,9 @@ a:hover {
   .page-news__left {
     width: 100%;
     max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
   }
 
   .page-news__right {
@@ -3172,6 +3225,8 @@ a:hover {
   .page-news__top-3 {
     display: block;
     margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .page-news__top-3__item {
@@ -3188,6 +3243,21 @@ a:hover {
 
   .page-news-full__list__item {
     width: 50%;
+  }
+
+  .page-news .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page-news-full .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page-news__list {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
