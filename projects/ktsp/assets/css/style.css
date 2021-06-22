@@ -3215,6 +3215,12 @@ a:hover {
     padding-top: 0;
   }
 
+  .page-news__left--page-detail {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+
   .page-news__right {
     width: 100%;
     max-width: 100%;
