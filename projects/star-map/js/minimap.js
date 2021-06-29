@@ -196,7 +196,7 @@
         $('#detailBody').html(data);
       });
 
-      $('#detailTitle').find('span').html('100,000 Stars');
+      $('#detailTitle').find('span').html('Bản đồ Sao');
 
       $detailContainer.css({
         paddingTop: line_height * 3 + 'px'
