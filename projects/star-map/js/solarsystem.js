@@ -69,10 +69,10 @@ function makeOortCloud(){
 	var particles = new THREE.ParticleSystem( particlesGeo, material );
 
 	var oortInfo = new THREE.Gyroscope();
-	oortInfo.name = "Oort Cloud";
+	oortInfo.name = "Đám mây Oort";
 	oortInfo.position.set( dist, -dist , 0 );
 	oortInfo.scale.setLength( 0.1 );
-	attachLegacyMarker( "Oort Cloud", oortInfo, 1.0, {min:40.0, max: 500.0}  );
+	attachLegacyMarker( "Đám mây Oort", oortInfo, 1.0, {min:40.0, max: 500.0}  );
 
 	particles.add( oortInfo );
 
@@ -123,14 +123,14 @@ function makeSolarSystem(){
 	solarSystem.add( mercuryOrbit );
 	var mercury = createPlanet( 55000000, 2439.7 );
 	solarSystem.add( mercury );
-	attachLegacyMarker( "Mercury", mercury, 1.0, {min:3.4, max: 8.0} );	
+	attachLegacyMarker( "Sao Thủy", mercury, 1.0, {min:3.4, max: 8.0} );	
 
 	//	venus
 	var venusOrbit = createSpaceRadius( KMToLY(108000000), /*0x9E4738*/ 0xffffff );
 	solarSystem.add( venusOrbit );
 	var venus = createPlanet( 108000000, 6051.8 );
 	solarSystem.add( venus );
-	attachLegacyMarker( "Venus", venus, 1.0, {min:3.6, max: 8.2} );	
+	attachLegacyMarker( "Sao Kim", venus, 1.0, {min:3.6, max: 8.2} );	
 
 	//	earth
 	var earthOrbit = createSpaceRadius( KMToLY(150000000), /*0x887F98*/ 0xffffff );
@@ -144,8 +144,8 @@ function makeSolarSystem(){
 	// earth.position.x = KMToLY(150000000);
 	solarSystem.add( earth );
 
-	earth.name = "Earth";
-	attachLegacyMarker( "Earth", earth, 1.0, {min:3.8, max: 8.4} );
+	earth.name = "Trái Đất";
+	attachLegacyMarker( "Trái Đất", earth, 1.0, {min:3.8, max: 8.4} );
 
 	//	the moon? sure why not...
 	// you can't even see it...
@@ -155,31 +155,31 @@ function makeSolarSystem(){
 	solarSystem.add( createSpaceRadius( KMToLY(230000000), /*0xCE6747*/ 0xffffff ) );	
 	var mars = createPlanet( 230000000, 3396.2 );
 	solarSystem.add( mars );
-	attachLegacyMarker( "Mars", mars, 1.0, {min:4.0, max: 8.6} );
+	attachLegacyMarker( "Sao Hỏa", mars, 1.0, {min:4.0, max: 8.6} );
 
 	//	jupiter
 	solarSystem.add( createSpaceRadius( KMToLY(778000000), /*0xCE6747*/ 0xffffff ) );
 	var jupiter = createPlanet( 778000000, 71492.2 );
 	solarSystem.add( jupiter );
-	attachLegacyMarker( "Jupiter", jupiter, 1.0, {min:8.0, max: 17.2} );
+	attachLegacyMarker( "Sao Mộc", jupiter, 1.0, {min:8.0, max: 17.2} );
 
 	//	saturn
 	solarSystem.add( createSpaceRadius( KMToLY(1400000000), /*0xCE6747*/ 0xffffff ) );
 	var saturn = createPlanet( 1400000000, 60268 );
 	solarSystem.add( saturn );
-	attachLegacyMarker( "Saturn", saturn, 1.0, {min:8.0, max: 17.6} );
+	attachLegacyMarker( "Sao Thổ", saturn, 1.0, {min:8.0, max: 17.6} );
 
 	//	uranus
 	solarSystem.add( createSpaceRadius( KMToLY(3000000000), /*0xCE6747*/ 0xffffff ) );
 	var uranus = createPlanet( 3000000000, 25559 );
 	solarSystem.add( uranus );
-	attachLegacyMarker( "Uranus", uranus, 1.0, {min:8.0, max: 18.0} );
+	attachLegacyMarker( "Sao Thiên Vương", uranus, 1.0, {min:8.0, max: 18.0} );
 
 	//	neptune
 	solarSystem.add( createSpaceRadius( KMToLY(4500000000), /*0xCE6747*/ 0xffffff ) );
 	var neptune = createPlanet( 4500000000, 24764  );
 	solarSystem.add( neptune );
-	attachLegacyMarker( "Neptune", neptune, 1.0, {min:8.0, max: 20.0} );
+	attachLegacyMarker( "Sao Hải vương", neptune, 1.0, {min:8.0, max: 20.0} );
 
 	solarSystem.dynamic = true;
 
@@ -198,7 +198,7 @@ function makeSolarSystem(){
 	sub.position.x = 0.5;
 	sub.position.y = 0.08;
 	measurement.add( sub );
-	attachLegacyMarker( "One light year.", sub, 1.0, {min:120, max: 400} );
+	attachLegacyMarker( "Một năm ánh sáng.", sub, 1.0, {min:120, max: 400} );
 	solarSystem.add( measurement );	
 
 	//	pioneer
