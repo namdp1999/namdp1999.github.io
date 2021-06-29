@@ -1,14 +1,14 @@
 var GALAXY_TOUR = [
-  {"rx":-0.18605511827781787,"ry":-2.464222597755626,"z":1.1,"travelTime":5000,"restTime":4000,"message":"This is the Sun, our home star."},
-  {"rx":1.4395420537811414,"ry":6.281532559509658,"z":5.148607771018531,"travelTime":4000,"restTime":3000,"message":"It would take 18 years for a jet airplane to fly to the sun.","callback":displaySunEarthDiagram},
-  {"rx":0.8369933670834534,"ry":1.837770087331788,"z":30.937978822676058,"travelTime":4000,"restTime":5000,"message":"The furthest man-made object, Voyager 1, is now almost 17 light hours away."}, 
-  {"rx":0.6424544063335803,"ry":-0.0031800804774647718,"z":198.23179619362583,"travelTime":3000,"restTime":5000,"message":"This is the length of one light year, the distance that light can travel in a year."},  
-  {"rx":0.503337952515914,"ry":-0.9904961225532652,"z":432.34847195438465,"travelTime":4000,"restTime":8000,"message":"These are the stars closest to our solar system.<br>The nearest star system, Alpha Centauri, is 4.3 light years away."},
-  {"rx":0.0019755752638865747,"ry":0.23341774437325485,"z":1210.7034532510997,"travelTime":4000,"restTime":5000,"message":"Named stars that astronomers have studied are highlighted here."},
-  {"rx":0.5522785678088462,"ry":1.324151395815386,"z":1672.4214873346518,"travelTime":5000,"restTime":5000,"message":"You're seeing the actual density and location of over 100,000 stars in this view."},
-  {"rx":-0.4155179986306899,"ry":2.5204046098483026,"z":31782.290495394205,"travelTime":5000,"restTime":5000,"message":"Blue, hotter burning stars reside closer to the galactic plane.", "callback":highlightStarHeat},
-  {"rx":-0.12216429754294249,"ry":1.9989722678912,"z":79999.99999999994,"travelTime":5000,"restTime":5000,"message":"All of which are in the Milky Way... which has 200 to 400 billion stars in total.", "callback":highlightMilkyWay},
-  {"rx":0,"ry":0,"z":1.1,"travelTime":10000,"restTime":6000,"message":"Go forth and explore. Click, drag and zoom with your mouse."},  
+  {"rx":-0.18605511827781787,"ry":-2.464222597755626,"z":1.1,"travelTime":5000,"restTime":4000,"message":"Đây là Mặt trời, ngôi sao quê hương của chúng ta."},
+  {"rx":1.4395420537811414,"ry":6.281532559509658,"z":5.148607771018531,"travelTime":4000,"restTime":3000,"message":"Sẽ mất 18 năm để một chiếc máy bay phản lực bay tới mặt trời.","callback":displaySunEarthDiagram},
+  {"rx":0.8369933670834534,"ry":1.837770087331788,"z":30.937978822676058,"travelTime":4000,"restTime":5000,"message":"Vật thể nhân tạo xa nhất, Voyager 1, hiện cách chúng ta gần 17 giờ ánh sáng."}, 
+  {"rx":0.6424544063335803,"ry":-0.0031800804774647718,"z":198.23179619362583,"travelTime":3000,"restTime":5000,"message":"Đây là độ dài của một năm ánh sáng, khoảng cách mà ánh sáng có thể truyền đi trong một năm."},  
+  {"rx":0.503337952515914,"ry":-0.9904961225532652,"z":432.34847195438465,"travelTime":4000,"restTime":8000,"message":"Đây là những ngôi sao gần nhất với hệ mặt trời của chúng ta.<br>Hệ sao gần nhất, Alpha Centauri, cách chúng ta 4,3 năm ánh sáng."},
+  {"rx":0.0019755752638865747,"ry":0.23341774437325485,"z":1210.7034532510997,"travelTime":4000,"restTime":5000,"message":"Những ngôi sao được đặt tên mà các nhà thiên văn học đã nghiên cứu được làm nổi bật ở đây."},
+  {"rx":0.5522785678088462,"ry":1.324151395815386,"z":1672.4214873346518,"travelTime":5000,"restTime":5000,"message":"Bạn đang thấy mật độ và vị trí thực tế của hơn 100.000 ngôi sao trong chế độ xem này."},
+  {"rx":-0.4155179986306899,"ry":2.5204046098483026,"z":31782.290495394205,"travelTime":5000,"restTime":5000,"message":"Các ngôi sao cháy màu xanh lam, nóng hơn cư trú gần mặt phẳng thiên hà hơn.", "callback":highlightStarHeat},
+  {"rx":-0.12216429754294249,"ry":1.9989722678912,"z":79999.99999999994,"travelTime":5000,"restTime":5000,"message":"Tất cả đều nằm trong Dải Ngân hà ... có tổng cộng 200 đến 400 tỷ ngôi sao.", "callback":highlightMilkyWay},
+  {"rx":0,"ry":0,"z":1.1,"travelTime":10000,"restTime":6000,"message":"Đi ra ngoài và khám phá. Nhấp, kéo và thu phóng bằng chuột của bạn."},  
 ];
 
 var cinematic_width = 75;
@@ -77,7 +77,7 @@ Tour.prototype = {
     var _this = this, next;
     if( _this.current == 0 ){
       next = $('<a href="#" />')
-      .html('Stop')
+      .html('Dừng lại')
       .click(function(e) {
         e.preventDefault();
         _this.stop();
@@ -208,7 +208,7 @@ Tour.prototype = {
       _this.content.fadeIn();
 
       var next = $('<a href="#" />')
-      .html('Skip')
+      .html('Bỏ qua')
       .click(function(e) {
         e.preventDefault();
         _this.hide();
