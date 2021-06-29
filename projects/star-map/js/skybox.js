@@ -9,7 +9,7 @@ function setupSkyboxScene(){
 }
 
 function initSkybox( highres ){
-	setLoadMessage("Loading internal stars")
+	setLoadMessage("Đang tải sao nội bộ")
 	var r = "images/ss_skybox/";
 
 	if( highres == false )
@@ -19,7 +19,7 @@ function initSkybox( highres ){
 				 r + "py.jpg", r + "ny.jpg",
 				 r + "pz.jpg", r + "nz.jpg" ];
 
-	var textureCube = THREE.ImageUtils.loadTextureCube( urls, undefined, setLoadMessage("Loading interstellar bodies") );
+	var textureCube = THREE.ImageUtils.loadTextureCube( urls, undefined, setLoadMessage("Đang tải các thiên thể giữa các vì sao") );
 	textureCube.anisotropy = maxAniso;
 	var shader = THREE.ShaderLib[ "cube" ];
 	shader.uniforms[ "tCube" ].value = textureCube;

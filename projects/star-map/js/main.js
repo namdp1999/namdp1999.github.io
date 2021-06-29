@@ -566,9 +566,9 @@ function unmuteSound(){
 
 function displayIntroMessage(){
 	Tour.meta.fadeIn();
-	tour.showMessage('Welcome to the stellar neighborhood.', 5000 )
-	.showMessage('This is a visualization of over 100,000 nearby stars.', 5000 )
-	.showMessage('Scroll and zoom to explore.', 4000, function(){
+	tour.showMessage('Chào mừng đến với những ngôi sao khu vực lân cận.', 5000 )
+	.showMessage('Đây là hình ảnh của hơn 100.000 ngôi sao gần chúng ta.', 5000 )
+	.showMessage('Cuộn và thu phóng để khám phá.', 4000, function(){
 		firstTime = false;
 		$(window).trigger('resize');
 		$iconNav.find('#tour-button').trigger('mouseover');
