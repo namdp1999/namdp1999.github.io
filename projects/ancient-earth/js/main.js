@@ -46,7 +46,7 @@
   if (window.location.hash) {
     startingYear = parseInt(window.location.hash.slice(1));
   }
-  yearsago.value = startingYear === 0 ? '0' : startingYear + ' triệu';
+  yearsago.value = startingYear === 0 ? '0' : startingYear;
   updateSelectWithValue(startingYear);
   onYearsAgoChanged();
 
@@ -143,7 +143,7 @@
 
     var jumpToElt = document.getElementById('jump-to');
     jumpToElt.onchange = function(e) {
-      yearsago.value = jumpToElt.value + ' triệu';
+      yearsago.value = jumpToElt.value;
       onYearsAgoChanged();
     };
   }
