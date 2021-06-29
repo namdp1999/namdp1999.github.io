@@ -14,7 +14,7 @@ body {
   line-height: 20px;
   margin: 0;
   overflow: hidden;
-  font-family: 'Lora', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   position: fixed; }
 
 #loader {
@@ -45,7 +45,7 @@ body {
     text-shadow: 0 0 3px #fff, 0 0 10px #000; }
 
 .marker {
-  font-family: 'Lekton', monospace;
+  font-family: 'Quicksand', sans-serif;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -92,7 +92,7 @@ body {
       text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff; }
 
 .legacymarker {
-  font-family: 'Lekton', monospace;
+  font-family: 'Quicksand', sans-serif;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -259,7 +259,7 @@ body {
   left: 0;
   top: 67px;
   color: #fff;
-  font-family: 'Lekton', monospace;
+  font-family: 'Quicksand', sans-serif;
   display: none;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -579,7 +579,7 @@ div.tip {
     border-bottom: 2px solid white; }
   #minimap #about {
     position: absolute;
-    font-family: 'Lekton', monospace;
+    font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     width: 24px;
     line-height: 27px;
@@ -605,7 +605,7 @@ div.tip {
     height: 24px; }
   #minimap #tour {
     position: absolute;
-    font-family: 'Lekton', monospace;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     width: 50px;
     line-height: 23px;
@@ -624,7 +624,7 @@ div.tip {
     right: 92px; }
   #minimap #heatvision {
     position: absolute;
-    font-family: 'Lekton', monospace;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     width: 105px;
     line-height: 23px;
