@@ -16,7 +16,7 @@ function makeSunEarthDiagram(){
 	var earthCallout = makeClamper(0.0000025);	
 	earthGyro.add( earthCallout );
 
-	earthGyro.name = "Sun";
+	earthGyro.name = "Mặt Trời";
 	attachMarker( earthGyro, 0.001 );
 
 	var sunGyro = new THREE.Gyroscope();

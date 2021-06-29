@@ -1147,7 +1147,7 @@ var starSystems = {
     }, 
     "Sol": {
         "id": 0, 
-        "name": "Sun", 
+        "name": "Mặt Trời", 
         "sep": 0.0, 
         "sub": [
             {
