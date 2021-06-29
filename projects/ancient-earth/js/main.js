@@ -46,7 +46,7 @@
   if (window.location.hash) {
     startingYear = parseInt(window.location.hash.slice(1));
   }
-  yearsago.value = startingYear === 0 ? '0' : startingYear + ' million';
+  yearsago.value = startingYear === 0 ? '0' : startingYear;
   updateSelectWithValue(startingYear);
   onYearsAgoChanged();
 
@@ -143,7 +143,7 @@
 
     var jumpToElt = document.getElementById('jump-to');
     jumpToElt.onchange = function(e) {
-      yearsago.value = jumpToElt.value + ' million';
+      yearsago.value = jumpToElt.value;
       onYearsAgoChanged();
     };
   }
