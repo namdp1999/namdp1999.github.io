@@ -175,9 +175,6 @@
 </head>
 <body>
   <div class="top">
-    <!-- <div class="links">
-      <strong><a href="http://dinosaurpictures.org/" style="color:#B1B06B;">Related: Database of Prehistoric Creatures</a></strong>
-    </div> -->
     <strong class="main-heading">
       Trái Đất
       <select id="years-ago">
@@ -210,39 +207,32 @@
       </select>
       năm trước trông như thế nào?
     </strong>
-    <!-- <div class="social-container">
-      <ul class="share-buttons">
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdinosaurpictures.org%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
-        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fdinosaurpictures.org%2F&text=:%20http%3A%2F%2Fdinosaurpictures.org%2F&via=iwebst" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
-        <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fdinosaurpictures.org%2F" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
-      </ul>
-    </div> -->
   </div>
   <div id="controls">
     <div class="jump-to-container">
       <span>Chuyển đến... </span>
       <select id="jump-to" class="button">
-        <option value="750">first multicellular life</option>
-        <option value="540">first shells</option>
-        <option value="470">first coral reefs</option>
-        <option value="470">first vertebrates</option>
-        <option value="430">first land plants</option>
-        <option value="400">first land animals</option>
-        <option value="400">first insects</option>
-        <option value="300">first reptiles</option>
-        <option value="220">first dinosaurs</option>
-        <option value="120">first flowers</option>
-        <option value="35">first primates</option>
-        <option value="35">first grass</option>
-        <option value="20">first hominids</option>
-
-        <option value="750">Pannotia supercontinent</option>
-        <option value="280">Pangea supercontinent</option>
-        <option value="240">Triassic</option>
-        <option value="170">Jurassic</option>
-        <option value="105">Cretaceous</option>
-        <option value="66">dinosaur extinction</option>
-      </select>
+        <option value="750">Lần đầu xuất hiện tảo lục</option>
+        <option value="600">Lần đầu xuất hiện sự sống đa bào</option>
+        <option value="540">Lần đầu xuất hiện vỏ sò</option>
+        <option value="470">Lần đầu xuất hiện rạn san hô</option>
+        <option value="470">Lần đầu xuất hiện động vật có xương sống</option>
+        <option value="430">Lần đầu xuất hiện cây trên cạn</option>
+        <option value="400">Lần đầu xuất hiện động vật trên cạn</option>
+        <option value="400">Lần đầu xuất hiện côn trùng</option>
+        <option value="300">Lần đầu xuất hiện loài bò sát</option>
+        <option value="220">Lần đầu xuất hiện khủng long</option>
+        <option value="120">Lần đầu xuất hiện những bông hoa</option>
+        <option value="35">Lần đầu xuất hiện động vật linh trưởng</option>
+        <option value="35">Lần đầu xuất hiện cỏ</option>
+        <option value="20">Lần đầu xuất hiện hominids (Họ người)</option>
+        <option value="600">Siêu lục địa Pannotia</option>
+        <option value="240">Siêu lục địa Pangea</option>
+        <option value="240">Kỷ Tam Điệp</option>
+        <option value="170">Kỷ Jura</option>
+        <option value="105">Kỷ Phấn Trắng</option>
+        <option value="66">Khủng long tuyệt chủng</option>
+        </select>
     </div>
     <span id="remove-clouds" class="button">Xóa các đám mây</span><br>
     <span id="stop-rotation" class="button">Dừng xoay</span>
@@ -251,7 +241,7 @@
   <div id="instructions">
     Sử dụng các phím ← và → để điều chỉnh mốc thời gian.
   </div>
-  <div class="title">Trái Đất <span id="how-long-ago">750 triệu</span> năm trước</div>
+  <div class="title">Trái Đất <span id="how-long-ago"></span> năm trước</div>
 
   <div id="loading">Tải dữ liệu...</div>
 
@@ -264,7 +254,10 @@
 	<script src="js/countdown.min.js"></script>
 	<script src="js/explain.js"></script>
 	<script src="js/main.js"></script>
-    <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
 for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
 mixpanel.init("c46b3dfff827de823f35a442a22a1ab8");</script><!-- end Mixpanel -->
         <script>if(window.location.href.indexOf('localhost') < 0) mixpanel.track('ancient-earth');</script>
@@ -279,5 +272,7 @@ mixpanel.init("c46b3dfff827de823f35a442a22a1ab8");</script><!-- end Mixpanel -->
         ga('send', 'pageview');
       }
     </script>
+
+
 </body>
 </html>
