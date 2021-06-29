@@ -196,7 +196,7 @@
         $('#detailBody').html(data);
       });
 
-      $('#detailTitle').find('span').html('Bản đồ Sao');
+      $('#detailTitle').find('span').html('Bản Đồ Sao');
 
       $detailContainer.css({
         paddingTop: line_height * 3 + 'px'
