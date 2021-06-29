@@ -244,7 +244,7 @@
 
     $tour = $(resp).find('svg').addClass('icon')
       .attr('id', 'tour-button')
-      .tip('Take a tour.')
+      .tip('Đi tham quan.')
       .click(function(e) {
         e.preventDefault();
         tour.start();
@@ -263,7 +263,7 @@
         }, function(e) {
           $tour.trigger('mouseenter');
         })
-        .tip('Toggle Spectral Index.');
+        .tip('Chuyển đổi chỉ mục quang phổ.');
       $iconNav.append($heatvision);
 
       $.get('./images/icons/center-sun.svg', function(resp) {
