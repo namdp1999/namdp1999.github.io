@@ -1,11 +1,11 @@
 function loadStarData( dataFile, callback ){
 	var xhr = new XMLHttpRequest();
-	setLoadMessage("Fetching stellar data");	
+	setLoadMessage("Đang tìm nạp dữ liệu Sao");	
 	xhr.addEventListener( 'load', function ( event ) {
 		var parsed = JSON.parse( xhr.responseText );
 		// console.log(parsed);
 		if( callback ){		
-			setLoadMessage("Parsing stellar data");	
+			setLoadMessage("Đang phân tích dữ liệu Sao");	
 			callback(parsed);			
 		}
 	}, false );
@@ -20,7 +20,7 @@ var datastarTexture1 = THREE.ImageUtils.loadTexture( "images/p_2.png" );
 var datastarHeatVisionTexture = THREE.ImageUtils.loadTexture( "images/sharppoint.png" );
 
 //	bright flashy named stars graphic
-var starPreviewTexture = THREE.ImageUtils.loadTexture( 'images/star_preview.png', undefined, setLoadMessage("Focusing optics")	);
+var starPreviewTexture = THREE.ImageUtils.loadTexture( 'images/star_preview.png', undefined, setLoadMessage("Lấy nét quang học")	);
 var starColorGraph = THREE.ImageUtils.loadTexture( 'images/star_color_modified.png' );
 
 var datastarUniforms = {
